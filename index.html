@@ -165,19 +165,14 @@
             border: 1px solid rgba(0,255,157,0.4);
         }
         .main-layout {
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
-    flex-wrap: wrap; /* Permite que en móvil se apilen, pero no en escritorio */
-}
-
-@media (max-width: 800px) {
-    .main-layout {
-        flex-direction: column; /* En móvil, sidebar arriba y contenido abajo */
-    }
-}
-.sidebar {
-            width: 300px;
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+        }
+        .sidebar {
+            width: 320px;
             background: rgba(10, 15, 31, 0.9);
             border-radius: 2rem;
             padding: 1.5rem;
@@ -317,21 +312,112 @@
             font-size: 0.9rem;
             margin-top: 2rem;
         }
-        /* resto de estilos iguales pero con los colores actualizados */
         .pulse-dots span { background: #00f3ff; }
         .toast-success { background: #00ff9d; color: #05070f; }
         .drawer {
+            position: fixed;
+            top: 0;
+            left: -320px;
+            width: 300px;
+            height: 100%;
             background: #0a0f1f;
             border-right: 2px solid #00f3ff;
+            z-index: 200;
+            transition: left 0.3s ease;
+            padding: 2rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .drawer.open {
+            left: 0;
+        }
+        .drawer-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 199;
+            display: none;
+        }
+        .drawer-overlay.open {
+            display: block;
+        }
+        .drawer h3 {
+            border-bottom: 2px solid #00f3ff;
+            padding-bottom: 0.5rem;
+        }
+        .drawer .user-info p {
+            margin: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .close-drawer {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            align-self: flex-end;
+            color: inherit;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 300;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal.active {
+            display: flex;
         }
         .modal-content {
             background: #0a0f1f;
+            border-radius: 2rem;
+            max-width: 90%;
+            width: 800px;
+            max-height: 90%;
+            overflow-y: auto;
+            padding: 2rem;
+            position: relative;
             border: 1px solid #00f3ff;
         }
-        /* Ajustes responsivos */
-        @media (max-width: 800px) {
-            .main-layout { flex-direction: column; }
-            .sidebar { width: 100%; }
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+        .admin-panel textarea {
+            width: 100%;
+            font-family: monospace;
+            min-height: 400px;
+        }
+        .class-config-item {
+            margin: 1rem 0;
+            padding: 1rem;
+            border: 1px solid #00f3ff;
+            border-radius: 1rem;
+        }
+        @media (max-width: 768px) {
+            .main-layout {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+            }
+            .modal-content {
+                width: 95%;
+                padding: 1rem;
+            }
         }
     </style>
 </head>
@@ -789,7 +875,7 @@
             return null;
         }
 
-        // ========== MOSTRAR TEMA (contenido) ==========
+        // ========== MOSTRAR TEMA ==========
         function mostrarTema(tema, clase, semestre, trayecto) {
             temaSeleccionado = { tema, clase, semestre, trayecto };
             const container = document.getElementById('contenidoTema');
@@ -803,7 +889,7 @@
                 });
                 html += `</ul>`;
             }
-            if (contenido.texto) html += `<p>${contenido.texto}</p>`;
+            if (contenido.texto) html += `<p>${contenido.texto.replace(/\n/g, '<br>')}</p>`;
             if (contenido.imagen) html += `<img src="${contenido.imagen}" style="max-width:100%; border-radius:1rem; margin:1rem 0;" onerror="this.style.display='none'">`;
             if (contenido.audio) html += `<audio controls style="width:100%; margin:1rem 0;"><source src="${contenido.audio}" type="audio/mpeg">Tu navegador no soporta audio.</audio>`;
             if (contenido.video) html += `<iframe width="100%" height="315" src="${contenido.video}" frameborder="0" allowfullscreen style="border-radius:1rem; margin:1rem 0;"></iframe>`;
@@ -1039,6 +1125,8 @@
             profileBtn.addEventListener('click', openDrawer);
             closeBtn.addEventListener('click', closeDrawer);
             overlay.addEventListener('click', closeDrawer);
+            // Asegurar que el drawer esté cerrado al cargar la página
+            closeDrawer();
         }
 
         // ========== MODALES ==========
