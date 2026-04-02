@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%236c5ce7'/%3E%3Cpath fill='%23ffffff' d='M50 25 L55 35 L45 35 Z M45 45 L55 45 L55 55 L45 55 Z'/%3E%3C/svg%3E">
+    <title>Tao Te Ching · Filosofía para la Vida · Aprendizaje Abierto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(145deg, #f9f4ff 0%, #eef2ff 100%);
+            color: #1a1a2e;
+            line-height: 1.5;
+            transition: background 0.3s, color 0.3s;
+        }
+        body.dark-mode {
+            background: linear-gradient(145deg, #0f0f1f 0%, #1a1a2e 100%);
+            color: #e2e8f0;
+        }
+        body.dark-mode .sidebar,
+        body.dark-mode .content-area,
+        body.dark-mode .intro-block,
+        body.dark-mode .header {
+            background-color: #1e1e2f;
+            border-color: #2d2d44;
+        }
+        body.dark-mode .badge-item {
+            background: #2d2d44;
+            color: #cbd5e1;
+        }
+        body.dark-mode .tree .tema-item:hover {
+            background: #2d2d44;
+        }
+        body.dark-mode input,
+        body.dark-mode select,
+        body.dark-mode textarea {
+            background: #0f0f1f;
+            border-color: #3b3b5c;
+            color: #e2e8f0;
+        }
+        body.dark-mode input:focus,
+        body.dark-mode select:focus {
+            border-color: #6c5ce7;
+            box-shadow: 0 0 0 3px rgba(108,92,231,0.2);
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem;
+        }
+        .header {
+            background: linear-gradient(135deg, #6c5ce7, #2d7ee7, #00b894);
+            border-radius: 2rem 2rem 1rem 1rem;
+            padding: 2rem 2rem 1.5rem;
+            margin-bottom: 2.5rem;
+            color: white;
+            box-shadow: 0 20px 30px -10px rgba(0,0,0,0.2);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            background: linear-gradient(to right, #fff, #ffe0b5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .logo span {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #f1f5f9;
+            display: block;
+        }
+        .nav {
+            display: flex;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .nav a, .nav button {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 3rem;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(4px);
+            transition: 0.2s;
+            font-size: 0.9rem;
+            border: 1px solid rgba(255,255,255,0.2);
+            cursor: pointer;
+            font-family: inherit;
+        }
+        .nav a:hover, .nav button:hover {
+            background: #ffffff;
+            color: #2d7ee7;
+            border-color: white;
+        }
+        body.dark-mode .nav a:hover,
+        body.dark-mode .nav button:hover {
+            background: #6c5ce7;
+            color: white;
+            border-color: #6c5ce7;
+        }
+        .scroll-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 1.5rem;
+            background: #6c5ce7;
+            color: white;
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            z-index: 100;
+            transition: 0.2s;
+            border: 2px solid white;
+            font-size: 1.3rem;
+            cursor: pointer;
+            opacity: 0.9;
+        }
+        .scroll-top:hover {
+            background: #00b894;
+            transform: scale(1.05);
+        }
+        .intro-block {
+            background: rgba(255,255,255,0.8);
+            backdrop-filter: blur(8px);
+            border-radius: 2.5rem;
+            padding: 2.2rem;
+            margin-bottom: 3rem;
+            border: 1px solid rgba(108,92,231,0.3);
+            box-shadow: 0 20px 35px -8px rgba(108,92,231,0.2);
+        }
+        .intro-block h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #6c5ce7;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+        body.dark-mode .intro-block h2 {
+            color: #a78bfa;
+        }
+        .badge-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin: 1.8rem 0;
+        }
+        .badge-item {
+            background: rgba(108,92,231,0.1);
+            border-radius: 3rem;
+            padding: 0.6rem 1.5rem;
+            font-weight: 600;
+            color: #6c5ce7;
+            font-size: 1rem;
+            box-shadow: 0 4px 6px -2px rgba(0,0,0,0.05);
+            border: 1px solid rgba(108,92,231,0.3);
+        }
+        .main-layout {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .sidebar {
+            width: 300px;
+            background: white;
+            border-radius: 2rem;
+            padding: 1.5rem;
+            box-shadow: 0 8px 20px rgba(108,92,231,0.1);
+            height: fit-content;
+            transition: background 0.3s;
+            border: 1px solid rgba(108,92,231,0.2);
+        }
+        .content-area {
+            flex: 1;
+            background: white;
+            border-radius: 2rem;
+            padding: 2rem;
+            box-shadow: 0 8px 20px rgba(108,92,231,0.1);
+            transition: background 0.3s;
+            border: 1px solid rgba(108,92,231,0.2);
+        }
+        .tree {
+            list-style: none;
+            padding-left: 0;
+        }
+        .tree li {
+            margin: 0.5rem 0;
+            cursor: pointer;
+        }
+        .tree details {
+            margin-left: 0.5rem;
+        }
+        .tree summary {
+            font-weight: 600;
+            color: #2d7ee7;
+            cursor: pointer;
+            padding: 0.3rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        body.dark-mode .tree summary {
+            color: #7c3aed;
+        }
+        .tree summary:hover {
+            color: #6c5ce7;
+        }
+        .tree .tema-item {
+            padding-left: 1.8rem;
+            margin: 0.3rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.95rem;
+        }
+        .tree .tema-item.completado {
+            text-decoration: line-through;
+            opacity: 0.7;
+        }
+        .tree .tema-item:hover {
+            background: rgba(108,92,231,0.1);
+            border-radius: 1rem;
+        }
+        .completado-badge {
+            font-size: 0.8rem;
+            color: #00b894;
+        }
+        .btn-completar {
+            background: #00b894;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            cursor: pointer;
+            font-weight: 500;
+            margin-top: 1rem;
+            transition: 0.2s;
+        }
+        .btn-completar:hover {
+            background: #00967a;
+        }
+        .btn-completar:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+        .mensaje-exito, .mensaje-error, .mensaje-info {
+            padding: 1rem;
+            border-radius: 40px;
+            text-align: center;
+            margin: 1rem 0;
+            display: none;
+        }
+        .mensaje-exito { background: #d4edda; color: #155724; }
+        .mensaje-error { background: #f8d7da; color: #721c24; }
+        .mensaje-info { background: #d1ecf1; color: #0c5460; }
+        .oculto { display: none; }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+        label {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        input, select, textarea {
+            padding: 0.85rem 1rem;
+            border: 1.5px solid #e2e8f0;
+            border-radius: 18px;
+            font-size: 0.95rem;
+            background: white;
+            outline: none;
+            transition: 0.2s;
+        }
+        input:focus, select:focus {
+            border-color: #6c5ce7;
+            box-shadow: 0 0 0 3px rgba(108,92,231,0.15);
+        }
+        .btn-submit {
+            background: #6c5ce7;
+            color: white;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 1.2rem 2.5rem;
+            border: none;
+            border-radius: 40px;
+            width: 100%;
+            cursor: pointer;
+            transition: 0.2s;
+            margin-top: 2.5rem;
+        }
+        .btn-submit:hover {
+            background: #2d7ee7;
+        }
+        .footer-note {
+            text-align: center;
+            color: inherit;
+            opacity: 0.8;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+        .pulse-dots {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .pulse-dots span {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #6c5ce7;
+            animation: pulse 1.4s infinite both;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(0.8); opacity: 0.5; }
+            50% { transform: scale(1.2); opacity: 1; }
+        }
+        .auto-verify-indicator {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 16px;
+            opacity: 0;
+            transition: 0.2s;
+        }
+        .auto-verify-indicator.visible { opacity: 1; }
+        .auto-verify-indicator.verifying { color: #2d7ee7; }
+        .auto-verify-indicator.verified { color: #00b894; }
+        .auto-verify-indicator.error { color: #ef4444; }
+        .toast-success {
+            position: fixed;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #00b894;
+            color: white;
+            padding: 16px 32px;
+            border-radius: 60px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: toastIn 0.4s forwards;
+        }
+        @keyframes toastIn {
+            from { top: -80px; opacity: 0; }
+            to { top: 30px; opacity: 1; }
+        }
+        .drawer {
+            position: fixed;
+            top: 0;
+            left: -320px;
+            width: 300px;
+            height: 100%;
+            background: white;
+            box-shadow: 2px 0 12px rgba(0,0,0,0.2);
+            z-index: 200;
+            transition: left 0.3s ease;
+            padding: 2rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        body.dark-mode .drawer {
+            background: #1e1e2f;
+            color: #e2e8f0;
+        }
+        .drawer.open {
+            left: 0;
+        }
+        .drawer-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 199;
+            display: none;
+        }
+        .drawer-overlay.open {
+            display: block;
+        }
+        .drawer h3 {
+            border-bottom: 2px solid #6c5ce7;
+            padding-bottom: 0.5rem;
+        }
+        .drawer .user-info p {
+            margin: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .close-drawer {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            align-self: flex-end;
+            color: inherit;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 300;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal.active {
+            display: flex;
+        }
+        .modal-content {
+            background: white;
+            border-radius: 2rem;
+            max-width: 90%;
+            width: 800px;
+            max-height: 90%;
+            overflow-y: auto;
+            padding: 2rem;
+            position: relative;
+        }
+        body.dark-mode .modal-content {
+            background: #1e1e2f;
+            color: #e2e8f0;
+        }
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+        .admin-panel textarea {
+            width: 100%;
+            font-family: monospace;
+            min-height: 400px;
+        }
+        .class-config-item {
+            margin: 1rem 0;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 1rem;
+        }
+        @media (max-width: 800px) {
+            .main-layout {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+            }
+            .modal-content {
+                width: 95%;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'});"><i class="fas fa-arrow-up"></i></div>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <h1><i class="fas fa-yin-yang"></i> Tao Te Ching</h1>
+                <span>Filosofía para la Vida · Aprendizaje Abierto · Sabiduría Ancestral</span>
+            </div>
+            <nav class="nav">
+                <button id="profileBtn"><i class="fas fa-user-circle"></i> Mi perfil</button>
+                <button id="attendanceBtn"><i class="fas fa-check-circle"></i> Asistencia</button>
+                <button id="adminBtn"><i class="fas fa-user-cog"></i> Admin</button>
+                <button id="darkModeToggle"><i class="fas fa-moon"></i> Modo oscuro</button>
+                <a href="#inicio"><i class="fas fa-rocket"></i> Inicio</a>
+                <a href="#clase"><i class="fas fa-book-open"></i> Clase</a>
+                <a href="#acerca"><i class="fas fa-info-circle"></i> Acerca</a>
+            </nav>
+        </header>
+
+        <!-- SECCIÓN DE VERIFICACIÓN DE CÉDULA -->
+        <section id="verificationSection" class="intro-block">
+            <h2><i class="fas fa-shield-alt"></i> Acceso al Aula Abierta</h2>
+            <p style="font-size:1.2rem; margin-bottom:1.5rem;">Ingresa tu cédula para comenzar tu viaje. Si es tu primera vez, completa tus datos.</p>
+            <div class="badge-row">
+                <span class="badge-item"><i class="fas fa-id-card"></i> Cédula</span>
+                <span class="badge-item"><i class="fas fa-arrow-right"></i> Acceder</span>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+                <div style="position:relative; width:100%; max-width:300px;">
+                    <input type="text" id="cedulaInput" placeholder="V-12345678" style="text-align: center;">
+                    <i class="fas auto-verify-indicator" id="verifyIndicator"></i>
+                </div>
+                <div id="verificationAnimation" class="pulse-dots hidden">
+                    <span></span><span></span><span></span>
+                </div>
+                <div id="verificationStatus" class="mensaje-info" style="display:none;"></div>
+                <button type="button" id="registerDirectBtn" class="btn-submit" style="display:none; width: auto; padding: 0.8rem 2rem;">
+                    <i class="fas fa-user-plus"></i> Registrar nuevo usuario
+                </button>
+            </div>
+        </section>
+
+        <!-- FORMULARIO DE REGISTRO -->
+        <div id="registrationSection" class="oculto">
+            <section class="intro-block">
+                <h2>📚 Completa tu perfil académico</h2>
+                <div class="grid-2">
+                    <div class="field"><label>Nombres *</label><input type="text" id="nombres"></div>
+                    <div class="field"><label>Apellidos *</label><input type="text" id="apellidos"></div>
+                </div>
+                <div class="grid-2">
+                    <div class="field"><label>Núcleo *</label><select id="nucleo"><option value="La Floresta">La Floresta</option><option value="Altagracia">Altagracia</option></select></div>
+                    <div class="field"><label>PNF *</label><select id="pnf"><option value="Filosofía">Filosofía</option></select></div>
+                </div>
+                <div class="grid-2">
+                    <div class="field"><label>Trayecto *</label><select id="trayecto"><option value="Tao Te Ching">Tao Te Ching</option></select></div>
+                    <div class="field"><label>Semestre *</label><select id="semestre"><option value="I">I</option><option value="II">II</option></select></div>
+                </div>
+                <button id="registerUserBtn" class="btn-submit">Guardar y acceder</button>
+            </section>
+        </div>
+
+        <!-- CONTENIDO PRINCIPAL (oculto inicialmente) -->
+        <div id="contenidoPrincipal" class="oculto">
+            <div class="main-layout">
+                <div class="sidebar">
+                    <h3><i class="fas fa-sitemap"></i> Índice</h3>
+                    <div id="arbolNavegacion"></div>
+                </div>
+                <div class="content-area">
+                    <div id="contenidoTema"></div>
+                    <button id="btnCompletarTema" class="btn-completar" style="display: none;">✓ Marcar como completado</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-note">⚡ Aprendizaje Abierto · Tao Te Ching · Sabiduría en cada paso · Gerard Kenny José Sieveres B.</div>
+    </div>
+
+    <!-- Panel deslizable (drawer) -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <div class="drawer" id="profileDrawer">
+        <button class="close-drawer" id="closeDrawerBtn">&times;</button>
+        <h3><i class="fas fa-user-graduate"></i> Mi perfil</h3>
+        <div class="user-info" id="drawerUserInfo">
+            <p><i class="fas fa-id-card"></i> <strong>Cédula:</strong> <span id="drawerCedula">-</span></p>
+            <p><i class="fas fa-user"></i> <strong>Nombre:</strong> <span id="drawerNombre">-</span></p>
+            <p><i class="fas fa-university"></i> <strong>PNF:</strong> <span id="drawerPnf">-</span></p>
+            <p><i class="fas fa-route"></i> <strong>Trayecto:</strong> <span id="drawerTrayecto">-</span></p>
+            <p><i class="fas fa-calendar-alt"></i> <strong>Semestre:</strong> <span id="drawerSemestre">-</span></p>
+        </div>
+    </div>
+
+    <!-- Modal de Asistencia -->
+    <div id="attendanceModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" id="closeAttendanceModal">&times;</span>
+            <h2><i class="fas fa-check-circle"></i> Tomar Asistencia</h2>
+            <div class="field">
+                <label>Fecha</label>
+                <input type="date" id="attendanceDate" value="">
+            </div>
+            <div class="field">
+                <label>Clase</label>
+                <select id="attendanceClassId"></select>
+            </div>
+            <div class="field">
+                <label>Estado</label>
+                <select id="attendanceStatus">
+                    <option value="Sí">Presente</option>
+                    <option value="No">Ausente</option>
+                </select>
+            </div>
+            <button id="saveAttendanceBtn" class="btn-submit">Guardar Asistencia</button>
+            <div id="attendanceMessage" class="mensaje-info" style="display:none;"></div>
+        </div>
+    </div>
+
+    <!-- Modal de Administración -->
+    <div id="adminModal" class="modal">
+        <div class="modal-content" style="max-width: 90%; width: 1000px;">
+            <span class="modal-close" id="closeAdminModal">&times;</span>
+            <h2><i class="fas fa-user-cog"></i> Panel de Administración</h2>
+            <div>
+                <h3>Contraseña de administrador</h3>
+                <input type="password" id="adminPassword" placeholder="Contraseña">
+                <button id="loginAdminBtn">Acceder</button>
+                <div id="adminPanel" style="display:none; margin-top: 2rem;">
+                    <h3>Editar estructura de curso (JSON)</h3>
+                    <textarea id="estructuraEditor" rows="20" style="width:100%; font-family:monospace;"></textarea>
+                    <button id="saveEstructuraBtn" class="btn-submit" style="margin-top:0.5rem;">Guardar estructura</button>
+
+                    <h3>Gestión de fechas de clases</h3>
+                    <div id="classConfigContainer"></div>
+                    <button id="saveClassConfigBtn" class="btn-submit">Guardar configuración de clases</button>
+
+                    <h3>Ver asistencia</h3>
+                    <div>
+                        <label>Filtrar por fecha</label>
+                        <input type="date" id="adminAttendanceDate">
+                        <label>Filtrar por clase</label>
+                        <select id="adminAttendanceClass"></select>
+                        <button id="loadAttendanceAdminBtn">Cargar asistencias</button>
+                        <div id="adminAttendanceList" style="margin-top:1rem;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast de éxito -->
+    <div id="toast" class="toast-success" style="display: none;"><i class="fas fa-check-circle"></i> <span id="toastMsg"></span></div>
+
+    <script>
+        // ========== CONFIGURACIÓN ==========
+        const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby_ZbCVN8NLgRhIr68Cax57pJAFOX04_XGtKE7gSU7kfhyPO7EgAxV3Mf1qFBCIW75bZA/exec"; // (misma que usabas)
+        let usuarioActual = { cedula: '', nombres: '', apellidos: '', nucleo: '', pnf: '', trayecto: '', semestre: '' };
+        let estructuraGlobal = null;
+        let progresoUsuario = {};  // temaId -> true/false
+        let temaSeleccionado = null;
+        let verificationTimeout = null;
+        let configClases = {};
+        let adminLoggedIn = false;
+
+        // ========== FUNCIONES DE UI ==========
+        function mostrarToast(mensaje, tipo = 'exito') {
+            const toast = document.getElementById('toast');
+            const msgSpan = document.getElementById('toastMsg');
+            msgSpan.innerText = mensaje;
+            toast.style.display = 'flex';
+            setTimeout(() => toast.style.display = 'none', 3000);
+        }
+
+        function mostrarMensaje(texto, tipo, elementoId = 'verificationStatus') {
+            const div = document.getElementById(elementoId);
+            if (!div) return;
+            div.style.display = 'block';
+            div.className = `mensaje-${tipo}`;
+            div.innerHTML = `<i class="fas fa-${tipo === 'exito' ? 'check-circle' : tipo === 'error' ? 'times-circle' : 'info-circle'}"></i> ${texto}`;
+            setTimeout(() => div.style.display = 'none', 5000);
+        }
+
+        function actualizarDrawer() {
+            document.getElementById('drawerCedula').innerText = usuarioActual.cedula || '-';
+            document.getElementById('drawerNombre').innerText = `${usuarioActual.nombres || ''} ${usuarioActual.apellidos || ''}`.trim() || '-';
+            document.getElementById('drawerPnf').innerText = usuarioActual.pnf || '-';
+            document.getElementById('drawerTrayecto').innerText = usuarioActual.trayecto || '-';
+            document.getElementById('drawerSemestre').innerText = usuarioActual.semestre || '-';
+        }
+
+        // ========== VERIFICACIÓN DE CÉDULA EN TIEMPO REAL ==========
+        function autoVerifyCedula(cedula) {
+            const indicator = document.getElementById('verifyIndicator');
+            const statusDiv = document.getElementById('verificationStatus');
+            const registerBtn = document.getElementById('registerDirectBtn');
+            const animDiv = document.getElementById('verificationAnimation');
+
+            clearTimeout(verificationTimeout);
+            if (statusDiv) statusDiv.style.display = 'none';
+            if (registerBtn) registerBtn.style.display = 'none';
+            indicator.innerHTML = '';
+            indicator.classList.remove('visible', 'verifying', 'verified', 'error');
+            if (animDiv) animDiv.classList.add('hidden');
+
+            if (cedula.length < 6) return;
+
+            indicator.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+            indicator.classList.add('visible', 'verifying');
+            if (animDiv) animDiv.classList.remove('hidden');
+
+            verificationTimeout = setTimeout(() => {
+                fetch(`${APPS_SCRIPT_URL}?cedula=${encodeURIComponent(cedula)}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (animDiv) animDiv.classList.add('hidden');
+                        indicator.classList.remove('verifying');
+                        if (data.exists) {
+                            statusDiv.className = 'mensaje-exito';
+                            statusDiv.innerHTML = `<i class="fas fa-check-circle"></i> Bienvenido ${data.nombres} ${data.apellidos}`;
+                            statusDiv.style.display = 'block';
+                            indicator.classList.add('verified');
+                            usuarioActual = {
+                                cedula: data.cedula,
+                                nombres: data.nombres,
+                                apellidos: data.apellidos,
+                                nucleo: data.nucleo,
+                                pnf: data.pnf,
+                                trayecto: data.trayecto,
+                                semestre: data.semestre
+                            };
+                            actualizarDrawer();
+                            cargarProgresoUsuario(cedula).then(() => {
+                                setTimeout(() => {
+                                    document.getElementById('verificationSection').classList.add('hidden');
+                                    document.getElementById('contenidoPrincipal').classList.remove('oculto');
+                                    cargarEstructuraYMostrar();
+                                }, 1200);
+                            });
+                        } else {
+                            statusDiv.className = 'mensaje-info';
+                            statusDiv.innerHTML = '<i class="fas fa-info-circle"></i> Usuario no registrado. Completa el registro.';
+                            statusDiv.style.display = 'block';
+                            indicator.classList.add('error');
+                            registerBtn.style.display = 'inline-block';
+                        }
+                    })
+                    .catch(err => {
+                        console.error(err);
+                        if (animDiv) animDiv.classList.add('hidden');
+                        indicator.classList.remove('verifying');
+                        statusDiv.className = 'mensaje-error';
+                        statusDiv.innerHTML = '<i class="fas fa-times-circle"></i> Error de conexión con el servidor.';
+                        statusDiv.style.display = 'block';
+                        indicator.classList.add('error');
+                    });
+            }, 700);
+        }
+
+        async function cargarProgresoUsuario(cedula) {
+            try {
+                const res = await fetch(`${APPS_SCRIPT_URL}?cedula=${cedula}&accion=progreso`);
+                const data = await res.json();
+                if (data.progreso) {
+                    progresoUsuario = data.progreso;
+                }
+            } catch (err) {
+                console.warn("No se pudo cargar progreso", err);
+            }
+        }
+
+        // ========== REGISTRO DE NUEVO USUARIO ==========
+        async function registrarUsuario() {
+            const cedula = document.getElementById('cedulaInput').value.trim();
+            const nombres = document.getElementById('nombres').value.trim();
+            const apellidos = document.getElementById('apellidos').value.trim();
+            const nucleo = document.getElementById('nucleo').value;
+            const pnf = document.getElementById('pnf').value;
+            const trayecto = document.getElementById('trayecto').value;
+            const semestre = document.getElementById('semestre').value;
+
+            if (!cedula || !nombres || !apellidos || !nucleo || !pnf || !trayecto || !semestre) {
+                mostrarMensaje('Por favor completa todos los campos', 'error');
+                return false;
+            }
+
+            const formData = new FormData();
+            formData.append('accion', 'registro');
+            formData.append('cedula', cedula);
+            formData.append('nombres', nombres);
+            formData.append('apellidos', apellidos);
+            formData.append('nucleo', nucleo);
+            formData.append('pnf', pnf);
+            formData.append('trayecto', trayecto);
+            formData.append('semestre', semestre);
+
+            try {
+                const response = await fetch(APPS_SCRIPT_URL, { method: 'POST', body: formData });
+                const data = await response.json();
+                if (data.result === 'success') {
+                    usuarioActual = { cedula, nombres, apellidos, nucleo, pnf, trayecto, semestre };
+                    actualizarDrawer();
+                    mostrarToast('Registro exitoso. Cargando contenido...');
+                    progresoUsuario = {};
+                    document.getElementById('registrationSection').classList.add('oculto');
+                    document.getElementById('contenidoPrincipal').classList.remove('oculto');
+                    cargarEstructuraYMostrar();
+                    return true;
+                } else {
+                    throw new Error(data.message);
+                }
+            } catch (err) {
+                mostrarMensaje('Error al registrar: ' + err.message, 'error');
+                return false;
+            }
+        }
+
+        // ========== GUARDAR PROGRESO DE TEMA ==========
+        async function marcarTemaCompletado(tema, puntaje = null) {
+            if (progresoUsuario[tema.id]) {
+                mostrarMensaje('Este tema ya estaba completado', 'info');
+                return;
+            }
+            const formData = new FormData();
+            formData.append('accion', 'progreso');
+            formData.append('cedula', usuarioActual.cedula);
+            formData.append('temaId', tema.id);
+            formData.append('temaTitulo', tema.titulo);
+            formData.append('clase', temaSeleccionado?.clase?.titulo || '');
+            formData.append('semestre', temaSeleccionado?.semestre?.titulo || '');
+            formData.append('trayecto', temaSeleccionado?.trayecto?.titulo || '');
+            if (puntaje !== null) {
+                formData.append('puntaje', puntaje);
+            }
+
+            try {
+                const response = await fetch(APPS_SCRIPT_URL, { method: 'POST', body: formData });
+                const data = await response.json();
+                if (data.result === 'success') {
+                    progresoUsuario[tema.id] = true;
+                    mostrarToast(`¡Tema completado!${puntaje !== null ? ` Puntaje: ${puntaje}%` : ''}`);
+                    const liTema = document.querySelector(`.tema-item[data-tema-id="${tema.id}"]`);
+                    if (liTema) {
+                        liTema.querySelector('i').className = 'fas fa-check-circle completado-badge';
+                        liTema.classList.add('completado');
+                    }
+                    document.getElementById('btnCompletarTema').style.display = 'none';
+                } else {
+                    throw new Error(data.message);
+                }
+            } catch (err) {
+                mostrarMensaje('Error al guardar progreso: ' + err.message, 'error');
+            }
+        }
+
+        // ========== CARGAR ESTRUCTURA Y CONSTRUIR ÁRBOL CON VISIBILIDAD ==========
+        async function cargarEstructuraYMostrar() {
+            try {
+                await cargarConfigClases();
+                const response = await fetch('estructura.json');
+                estructuraGlobal = await response.json();
+                construirArbolConFechas();
+                const primerTema = getPrimerTema();
+                if (primerTema) mostrarTema(primerTema.tema, primerTema.clase, primerTema.semestre, primerTema.trayecto);
+            } catch (error) {
+                console.error('Error cargando estructura.json:', error);
+                document.getElementById('arbolNavegacion').innerHTML = '<p class="mensaje-error">Error al cargar el contenido. Asegúrate de que estructura.json está en el servidor.</p>';
+            }
+        }
+
+        async function cargarConfigClases() {
+            try {
+                const res = await fetch(`${APPS_SCRIPT_URL}?accion=getConfigClases`);
+                const data = await res.json();
+                configClases = data.config || {};
+            } catch (err) {
+                console.warn("No se pudo cargar configuración de clases", err);
+                configClases = {};
+            }
+        }
+
+        function claseVisible(claseId) {
+            const config = configClases[claseId];
+            if (!config) return true;
+            if (!config.visible) return false;
+            if (config.fechaHabilitacion) {
+                const hoy = new Date();
+                const fechaHab = new Date(config.fechaHabilitacion);
+                if (hoy < fechaHab) return false;
+            }
+            return true;
+        }
+
+        function construirArbolConFechas() {
+            const contenedor = document.getElementById('arbolNavegacion');
+            contenedor.innerHTML = '';
+            const trayecto = estructuraGlobal.trayectos[0];
+            const ul = document.createElement('ul');
+            ul.className = 'tree';
+
+            trayecto.semestres.forEach(semestre => {
+                const liSem = document.createElement('li');
+                const detailsSem = document.createElement('details');
+                const summarySem = document.createElement('summary');
+                summarySem.innerHTML = `<i class="fas fa-calendar-alt"></i> ${semestre.titulo}`;
+                detailsSem.appendChild(summarySem);
+                const ulClases = document.createElement('ul');
+                semestre.clases.forEach(clase => {
+                    const visible = claseVisible(clase.id);
+                    if (!visible) return;
+                    const liClase = document.createElement('li');
+                    const detailsClase = document.createElement('details');
+                    const summaryClase = document.createElement('summary');
+                    summaryClase.innerHTML = `<i class="fas fa-chalkboard"></i> ${clase.titulo}`;
+                    detailsClase.appendChild(summaryClase);
+                    const ulTemas = document.createElement('ul');
+                    clase.temas.forEach(tema => {
+                        const liTema = document.createElement('li');
+                        liTema.className = 'tema-item';
+                        liTema.setAttribute('data-tema-id', tema.id);
+                        const icon = document.createElement('i');
+                        icon.className = progresoUsuario[tema.id] ? 'fas fa-check-circle completado-badge' : 'far fa-circle';
+                        const span = document.createElement('span');
+                        span.textContent = tema.titulo;
+                        liTema.appendChild(icon);
+                        liTema.appendChild(span);
+                        liTema.addEventListener('click', (e) => {
+                            e.stopPropagation();
+                            mostrarTema(tema, clase, semestre, trayecto);
+                        });
+                        ulTemas.appendChild(liTema);
+                    });
+                    detailsClase.appendChild(ulTemas);
+                    liClase.appendChild(detailsClase);
+                    ulClases.appendChild(liClase);
+                });
+                detailsSem.appendChild(ulClases);
+                liSem.appendChild(detailsSem);
+                ul.appendChild(liSem);
+            });
+            contenedor.appendChild(ul);
+        }
+
+        function getPrimerTema() {
+            if (!estructuraGlobal) return null;
+            const trayecto = estructuraGlobal.trayectos[0];
+            if (!trayecto) return null;
+            for (const semestre of trayecto.semestres) {
+                for (const clase of semestre.clases) {
+                    if (claseVisible(clase.id) && clase.temas.length > 0) {
+                        return { tema: clase.temas[0], clase, semestre, trayecto };
+                    }
+                }
+            }
+            return null;
+        }
+
+        // ========== MOSTRAR TEMA ==========
+        function mostrarTema(tema, clase, semestre, trayecto) {
+            temaSeleccionado = { tema, clase, semestre, trayecto };
+            const container = document.getElementById('contenidoTema');
+            const contenido = tema.contenido;
+            let html = `<h2>${tema.titulo}</h2>`;
+            if (clase.descripcion) {
+                html += `<p><em>📖 ${clase.descripcion}</em></p>`;
+            }
+            if (clase.archivos && clase.archivos.length > 0) {
+                html += `<h3>📂 Material de apoyo</h3><ul>`;
+                clase.archivos.forEach(arch => {
+                    html += `<li><a href="${arch.url}" target="_blank" download><i class="fas fa-download"></i> ${arch.nombre}</a></li>`;
+                });
+                html += `</ul>`;
+            }
+            if (contenido.texto) html += `<p>${contenido.texto}</p>`;
+            if (contenido.imagen) html += `<img src="${contenido.imagen}" style="max-width:100%; border-radius:1rem; margin:1rem 0;" onerror="this.style.display='none'">`;
+            if (contenido.audio) html += `<audio controls style="width:100%; margin:1rem 0;"><source src="${contenido.audio}" type="audio/mpeg">Tu navegador no soporta audio.</audio>`;
+            if (contenido.video) html += `<iframe width="100%" height="315" src="${contenido.video}" frameborder="0" allowfullscreen style="border-radius:1rem; margin:1rem 0;"></iframe>`;
+            if (contenido.quiz) {
+                html += `<div class="quiz" data-quiz='${JSON.stringify(contenido.quiz)}'><h3>📝 Cuestionario</h3><p>${contenido.quiz.pregunta}</p>`;
+                contenido.quiz.opciones.forEach((opc, idx) => {
+                    html += `<div><input type="radio" name="quiz" value="${idx}"> ${opc}</div>`;
+                });
+                html += `<button id="responderQuiz" class="btn-submit" style="margin-top:0.5rem;">Responder</button><div id="feedbackQuiz"></div></div>`;
+            }
+            if (tema.consideraciones && tema.consideraciones.length > 0) {
+                html += `<h3>📌 Consideraciones</h3><ul>${tema.consideraciones.map(c => `<li>${c}</li>`).join('')}</ul>`;
+            }
+            container.innerHTML = html;
+
+            const btnCompletar = document.getElementById('btnCompletarTema');
+            if (progresoUsuario[tema.id]) {
+                btnCompletar.style.display = 'none';
+            } else {
+                btnCompletar.style.display = 'block';
+                btnCompletar.onclick = () => marcarTemaCompletado(tema);
+            }
+
+            if (contenido.quiz) {
+                document.getElementById('responderQuiz')?.addEventListener('click', () => {
+                    const seleccion = document.querySelector('input[name="quiz"]:checked');
+                    if (!seleccion) { alert('Selecciona una respuesta'); return; }
+                    const respuesta = parseInt(seleccion.value);
+                    const quizData = contenido.quiz;
+                    if (respuesta === quizData.correcta) {
+                        document.getElementById('feedbackQuiz').innerHTML = `<span style="color:green;">✅ ${quizData.feedback || '¡Correcto!'}</span>`;
+                        if (!progresoUsuario[tema.id]) {
+                            marcarTemaCompletado(tema, 100);
+                        }
+                    } else {
+                        document.getElementById('feedbackQuiz').innerHTML = `<span style="color:red;">❌ Incorrecto. ${quizData.feedback || 'Inténtalo de nuevo.'}</span>`;
+                    }
+                });
+            }
+        }
+
+        // ========== ASISTENCIA ==========
+        async function guardarAsistencia() {
+            const fecha = document.getElementById('attendanceDate').value;
+            const claseId = document.getElementById('attendanceClassId').value;
+            const presente = document.getElementById('attendanceStatus').value;
+            if (!fecha || !claseId) {
+                mostrarMensaje('Seleccione fecha y clase', 'error', 'attendanceMessage');
+                return;
+            }
+            const formData = new FormData();
+            formData.append('accion', 'asistencia');
+            formData.append('fecha', fecha);
+            formData.append('cedula', usuarioActual.cedula);
+            formData.append('nombre', `${usuarioActual.nombres} ${usuarioActual.apellidos}`);
+            formData.append('claseId', claseId);
+            formData.append('presente', presente);
+
+            try {
+                const response = await fetch(APPS_SCRIPT_URL, { method: 'POST', body: formData });
+                const data = await response.json();
+                if (data.result === 'success') {
+                    mostrarToast('Asistencia registrada');
+                    document.getElementById('attendanceModal').classList.remove('active');
+                } else {
+                    throw new Error(data.message);
+                }
+            } catch (err) {
+                mostrarMensaje('Error: ' + err.message, 'error', 'attendanceMessage');
+            }
+        }
+
+        function cargarClasesEnSelect(selectId) {
+            const select = document.getElementById(selectId);
+            select.innerHTML = '<option value="">Seleccione clase</option>';
+            if (!estructuraGlobal) return;
+            const trayecto = estructuraGlobal.trayectos[0];
+            trayecto.semestres.forEach(semestre => {
+                semestre.clases.forEach(clase => {
+                    const option = document.createElement('option');
+                    option.value = clase.id;
+                    option.textContent = `${semestre.titulo} - ${clase.titulo}`;
+                    select.appendChild(option);
+                });
+            });
+        }
+
+        // ========== ADMINISTRACIÓN ==========
+        function loginAdmin() {
+            const pass = document.getElementById('adminPassword').value;
+            if (pass === "admin123") {
+                adminLoggedIn = true;
+                document.getElementById('adminPanel').style.display = 'block';
+                cargarEstructuraEditable();
+                cargarConfiguracionClasesAdmin();
+                cargarClasesEnSelect('adminAttendanceClass');
+                mostrarToast('Acceso concedido');
+            } else {
+                mostrarMensaje('Contraseña incorrecta', 'error', 'attendanceMessage');
+            }
+        }
+
+        async function cargarEstructuraEditable() {
+            try {
+                const res = await fetch(`${APPS_SCRIPT_URL}?accion=getEstructuraEditable`);
+                const data = await res.json();
+                if (data.estructura) {
+                    document.getElementById('estructuraEditor').value = JSON.stringify(data.estructura, null, 2);
+                } else {
+                    document.getElementById('estructuraEditor').value = '// No hay estructura guardada. Puedes pegar tu JSON aquí.';
+                }
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        async function guardarEstructura() {
+            const newEstructura = document.getElementById('estructuraEditor').value;
+            try {
+                JSON.parse(newEstructura); // validar
+            } catch(e) {
+                mostrarMensaje('JSON inválido', 'error', 'attendanceMessage');
+                return;
+            }
+            const formData = new FormData();
+            formData.append('accion', 'guardarEstructura');
+            formData.append('password', document.getElementById('adminPassword').value);
+            formData.append('estructura', newEstructura);
+            try {
+                const response = await fetch(APPS_SCRIPT_URL, { method: 'POST', body: formData });
+                const data = await response.json();
+                if (data.result === 'success') {
+                    mostrarToast('Estructura guardada');
+                } else {
+                    throw new Error(data.message);
+                }
+            } catch (err) {
+                mostrarMensaje('Error: ' + err.message, 'error', 'attendanceMessage');
+            }
+        }
+
+        async function cargarConfiguracionClasesAdmin() {
+            const container = document.getElementById('classConfigContainer');
+            if (!estructuraGlobal) return;
+            const trayecto = estructuraGlobal.trayectos[0];
+            let html = '';
+            trayecto.semestres.forEach(semestre => {
+                semestre.clases.forEach(clase => {
+                    const config = configClases[clase.id] || { fechaHabilitacion: '', visible: true, orden: 0 };
+                    html += `
+                        <div class="class-config-item">
+                            <h4>${semestre.titulo} - ${clase.titulo}</h4>
+                            <label>Fecha de habilitación (YYYY-MM-DD):</label>
+                            <input type="date" class="class-date" data-clase="${clase.id}" value="${config.fechaHabilitacion || ''}">
+                            <label>Visible:</label>
+                            <input type="checkbox" class="class-visible" data-clase="${clase.id}" ${config.visible ? 'checked' : ''}>
+                        </div>
+                    `;
+                });
+            });
+            container.innerHTML = html;
+        }
+
+        async function guardarConfigClases() {
+            const config = {};
+            const fechas = document.querySelectorAll('.class-date');
+            fechas.forEach(input => {
+                const claseId = input.dataset.clase;
+                const visibleCheck = document.querySelector(`.class-visible[data-clase="${claseId}"]`);
+                config[claseId] = {
+                    fechaHabilitacion: input.value,
+                    visible: visibleCheck ? visibleCheck.checked : true,
+                    orden: 0
+                };
+            });
+            const formData = new FormData();
+            formData.append('accion', 'guardarConfigClases');
+            formData.append('password', document.getElementById('adminPassword').value);
+            formData.append('config', JSON.stringify(config));
+            try {
+                const response = await fetch(APPS_SCRIPT_URL, { method: 'POST', body: formData });
+                const data = await response.json();
+                if (data.result === 'success') {
+                    mostrarToast('Configuración de clases actualizada');
+                    await cargarConfigClases();
+                    construirArbolConFechas();
+                } else {
+                    throw new Error(data.message);
+                }
+            } catch (err) {
+                mostrarMensaje('Error: ' + err.message, 'error', 'attendanceMessage');
+            }
+        }
+
+        async function cargarAsistenciasAdmin() {
+            const fecha = document.getElementById('adminAttendanceDate').value;
+            const claseId = document.getElementById('adminAttendanceClass').value;
+            let url = `${APPS_SCRIPT_URL}?accion=getAsistencia`;
+            if (fecha) url += `&fecha=${fecha}`;
+            if (claseId) url += `&claseId=${claseId}`;
+            try {
+                const res = await fetch(url);
+                const data = await res.json();
+                const lista = data.asistencia || [];
+                const container = document.getElementById('adminAttendanceList');
+                if (lista.length === 0) {
+                    container.innerHTML = '<p>No hay registros.</p>';
+                    return;
+                }
+                let table = '<table border="1" cellpadding="8" style="width:100%; border-collapse:collapse;"> <thead> <tr><th>Fecha</th><th>Cédula</th><th>Nombre</th><th>Clase</th><th>Presente</th></tr> </thead><tbody>';
+                lista.forEach(item => {
+                    table += `<tr><td>${item.fecha}</td><td>${item.cedula}</td><td>${item.nombre}</td><td>${item.claseId}</td><td>${item.presente}</td></tr>`;
+                });
+                table += '</tbody></table>';
+                container.innerHTML = table;
+            } catch (err) {
+                console.error(err);
+            }
+        }
+
+        // ========== MODO OSCURO ==========
+        function initDarkMode() {
+            const darkMode = localStorage.getItem('darkMode') === 'true';
+            if (darkMode) document.body.classList.add('dark-mode');
+            const btn = document.getElementById('darkModeToggle');
+            btn.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+                localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+                btn.innerHTML = document.body.classList.contains('dark-mode') ? '<i class="fas fa-sun"></i> Modo claro' : '<i class="fas fa-moon"></i> Modo oscuro';
+            });
+            btn.innerHTML = darkMode ? '<i class="fas fa-sun"></i> Modo claro' : '<i class="fas fa-moon"></i> Modo oscuro';
+        }
+
+        // ========== DRAWER ==========
+        function initDrawer() {
+            const profileBtn = document.getElementById('profileBtn');
+            const drawer = document.getElementById('profileDrawer');
+            const overlay = document.getElementById('drawerOverlay');
+            const closeBtn = document.getElementById('closeDrawerBtn');
+
+            function openDrawer() {
+                drawer.classList.add('open');
+                overlay.classList.add('open');
+            }
+            function closeDrawer() {
+                drawer.classList.remove('open');
+                overlay.classList.remove('open');
+            }
+            profileBtn.addEventListener('click', openDrawer);
+            closeBtn.addEventListener('click', closeDrawer);
+            overlay.addEventListener('click', closeDrawer);
+        }
+
+        // ========== MODALES ==========
+        function initModals() {
+            const attendanceModal = document.getElementById('attendanceModal');
+            const adminModal = document.getElementById('adminModal');
+            const closeAttendance = document.getElementById('closeAttendanceModal');
+            const closeAdmin = document.getElementById('closeAdminModal');
+            const attendanceBtn = document.getElementById('attendanceBtn');
+            const adminBtn = document.getElementById('adminBtn');
+
+            attendanceBtn.addEventListener('click', () => {
+                if (!usuarioActual.cedula) {
+                    mostrarMensaje('Debes iniciar sesión primero', 'error');
+                    return;
+                }
+                document.getElementById('attendanceDate').value = new Date().toISOString().split('T')[0];
+                cargarClasesEnSelect('attendanceClassId');
+                attendanceModal.classList.add('active');
+            });
+            adminBtn.addEventListener('click', () => {
+                adminModal.classList.add('active');
+                document.getElementById('adminPanel').style.display = 'none';
+                document.getElementById('adminPassword').value = '';
+            });
+            closeAttendance.onclick = () => attendanceModal.classList.remove('active');
+            closeAdmin.onclick = () => adminModal.classList.remove('active');
+            window.onclick = (e) => {
+                if (e.target === attendanceModal) attendanceModal.classList.remove('active');
+                if (e.target === adminModal) adminModal.classList.remove('active');
+            };
+        }
+
+        // ========== EVENTOS ==========
+        document.addEventListener('DOMContentLoaded', () => {
+            initDarkMode();
+            initDrawer();
+            initModals();
+            const cedulaInput = document.getElementById('cedulaInput');
+            cedulaInput.addEventListener('input', (e) => {
+                e.target.value = e.target.value.replace(/[^0-9]/g, '');
+                autoVerifyCedula(e.target.value);
+            });
+
+            document.getElementById('registerDirectBtn').addEventListener('click', () => {
+                document.getElementById('verificationSection').classList.add('hidden');
+                document.getElementById('registrationSection').classList.remove('oculto');
+            });
+
+            document.getElementById('registerUserBtn').addEventListener('click', registrarUsuario);
+            document.getElementById('saveAttendanceBtn').addEventListener('click', guardarAsistencia);
+            document.getElementById('loginAdminBtn').addEventListener('click', loginAdmin);
+            document.getElementById('saveEstructuraBtn').addEventListener('click', guardarEstructura);
+            document.getElementById('saveClassConfigBtn').addEventListener('click', guardarConfigClases);
+            document.getElementById('loadAttendanceAdminBtn').addEventListener('click', cargarAsistenciasAdmin);
+        });
+    </script>
+</body>
+</html>

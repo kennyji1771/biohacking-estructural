@@ -1,0 +1,987 @@
+{
+  "pnf": "Biohacking Estructural",
+  "trayectos": [
+    {
+      "id": "biohacking",
+      "titulo": "Biohacking Estructural: Arquitectura de la Resurrección",
+      "nivel": "Ingeniería Biológica",
+      "duracion": "40 Días",
+      "semestres": [
+        {
+          "id": "fase1",
+          "titulo": "Fase I: Colapso del Combustible Externo (Días 1–5)",
+          "filosofia": "Apagado del sistema heredado. Transición energética de glucosa a cetonas.",
+          "clases": [
+            {
+              "id": "fase1_dias",
+              "titulo": "Días 1 a 5",
+              "descripcion": "Caída de insulina, activación de AMPK, agotamiento de glucógeno, cetosis profunda, autofagia máxima, supresión del apetito.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia1",
+                  "titulo": "Día 1: Caída de insulina. Activación de AMPK",
+                  "contenido": {
+                    "texto": "**Biológico:** Caída de insulina. Activación de AMPK.\n\n**Analógico:** Desconexión del cargador externo. Modo ahorro de energía.\n\n**Espiritual:** La materia deja de ser el combustible principal.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Inicio del ayuno. Hidratación con electrolitos. Evitar estímulos externos."
+                  ]
+                },
+                {
+                  "id": "dia2",
+                  "titulo": "Día 2: Agotamiento de glucógeno. Inicio de gluconeogénesis",
+                  "contenido": {
+                    "texto": "**Biológico:** Agotamiento de glucógeno. Inicio de gluconeogénesis.\n\n**Analógico:** Vaciamiento de caché. Reutilización de procesos inactivos.\n\n**Espiritual:** Las molestias son el ruido de archivos temporales siendo eliminados.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de hambre pasajera. Mantener hidratación."
+                  ]
+                },
+                {
+                  "id": "dia3",
+                  "titulo": "Día 3: Cetosis profunda. Reducción de IGF‑1",
+                  "contenido": {
+                    "texto": "**Biológico:** Cetosis profunda. Reducción de IGF‑1.\n\n**Analógico:** Cambio de kernel. Reinicio de procesos.\n\n**Espiritual:** La mente abandona su matriz de dependencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posible dolor de cabeza por adaptación cetogénica. Aumentar ingesta de sales."
+                  ]
+                },
+                {
+                  "id": "dia4",
+                  "titulo": "Día 4: Autofagia máxima. Reciclaje de proteínas mal plegadas",
+                  "contenido": {
+                    "texto": "**Biológico:** Autofagia máxima. Reciclaje de proteínas mal plegadas.\n\n**Analógico:** Antivirus en modo kernel. Eliminación de sectores corruptos.\n\n**Espiritual:** El cuerpo literalmente se come su imperfección.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Puede sentirse fatiga. Evitar ejercicio intenso."
+                  ]
+                },
+                {
+                  "id": "dia5",
+                  "titulo": "Día 5: Supresión del apetito. Apoptosis de células inmunes viejas",
+                  "contenido": {
+                    "texto": "**Biológico:** Supresión del apetito. Apoptosis de células inmunes viejas.\n\n**Analógico:** Nuevo runtime estable. Desactivación de ruido de fondo.\n\n**Espiritual:** El sistema ya no demanda materia, demanda coherencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "El apetito desaparece. Comienza la verdadera limpieza."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fase2",
+          "titulo": "Fase II: Purga de Datos Biológicos (Días 6–12)",
+          "filosofia": "Reinicio del sistema inmune. Eliminación de archivos corruptos.",
+          "clases": [
+            {
+              "id": "fase2_dias",
+              "titulo": "Días 6 a 12",
+              "descripcion": "Inhibición de mTOR, reposo intestinal, activación de FOXO, aumento de BDNF, movilización de toxinas, proteínas de choque térmico, adaptación a cetonas.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia6",
+                  "titulo": "Día 6: Inhibición de mTOR. Reducción de citoquinas inflamatorias",
+                  "contenido": {
+                    "texto": "**Biológico:** Inhibición de mTOR. Reducción de citoquinas inflamatorias.\n\n**Analógico:** Detención de procesos en segundo plano.\n\n**Espiritual:** Dejar de crecer hacia afuera para crecer hacia adentro.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "La inflamación disminuye. Sensación de ligereza."
+                  ]
+                },
+                {
+                  "id": "dia7",
+                  "titulo": "Día 7: Reposo intestinal. Regeneración de barrera epitelial",
+                  "contenido": {
+                    "texto": "**Biológico:** Reposo intestinal. Regeneración de barrera epitelial.\n\n**Analógico:** Formateo de la unidad de entrada/salida.\n\n**Espiritual:** El templo de la asimilación se vacía para volverse transparente.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posible sensación de limpieza profunda. Hidratación constante."
+                  ]
+                },
+                {
+                  "id": "dia8",
+                  "titulo": "Día 8: Activación de FOXO. Silenciamiento de genes de proliferación",
+                  "contenido": {
+                    "texto": "**Biológico:** Activación de FOXO. Silenciamiento de genes de proliferación.\n\n**Analógico:** Desactivación de scripts heredados.\n\n**Espiritual:** Liberación de patrones familiares grabados en la biología.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Pueden surgir recuerdos o emociones pasadas. Observar sin juicio."
+                  ]
+                },
+                {
+                  "id": "dia9",
+                  "titulo": "Día 9: Aumento de BDNF",
+                  "contenido": {
+                    "texto": "**Biológico:** Aumento de BDNF (Factor Neurotrófico Derivado del Cerebro).\n\n**Analógico:** Reparación de conexiones de red.\n\n**Espiritual:** Nuevas rutas de percepción.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Mayor claridad mental, creatividad."
+                  ]
+                },
+                {
+                  "id": "dia10",
+                  "titulo": "Día 10: Movilización de toxinas liposolubles",
+                  "contenido": {
+                    "texto": "**Biológico:** Movilización de toxinas liposolubles.\n\n**Analógico:** Desfragmentación profunda del disco duro.\n\n**Espiritual:** Emociones almacenadas en el tejido graso comienzan a liberarse.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posibles cambios de humor. Acompañamiento emocional."
+                  ]
+                },
+                {
+                  "id": "dia11",
+                  "titulo": "Día 11: Aumento de proteínas de choque térmico",
+                  "contenido": {
+                    "texto": "**Biológico:** Aumento de proteínas de choque térmico (HSP).\n\n**Analógico:** Compilación de nuevas bibliotecas de resistencia.\n\n**Espiritual:** La fragilidad se transforma en resiliencia estructural.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "El cuerpo se siente más fuerte, a pesar del ayuno."
+                  ]
+                },
+                {
+                  "id": "dia12",
+                  "titulo": "Día 12: Máxima eficiencia mitocondrial. Adaptación completa a cetonas",
+                  "contenido": {
+                    "texto": "**Biológico:** Máxima eficiencia mitocondrial. Adaptación completa a cetonas.\n\n**Analógico:** Nuevo kernel funcionando en lenguaje nativo.\n\n**Espiritual:** El cuerpo ya no extraña la densidad. Opera en frecuencia limpia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Energía estable. Fin de la primera gran fase de adaptación."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fase3",
+          "titulo": "Fase III: Estructuración del Hardware Líquido (Días 13–21)",
+          "filosofia": "Reconfiguración del agua corporal. Explosión de células madre.",
+          "clases": [
+            {
+              "id": "fase3_dias",
+              "titulo": "Días 13 a 21",
+              "descripcion": "Reducción de líquido extracelular, estabilización de VFC, cambios en metilación, señalización de células madre, reducción hepática, aumento de mielinización, apoptosis masiva, estroma de médula ósea listo, explosión de células madre.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia13",
+                  "titulo": "Día 13: Reducción de líquido extracelular. Homeostasis por ADH",
+                  "contenido": {
+                    "texto": "**Biológico:** Reducción de líquido extracelular. Homeostasis por ADH.\n\n**Analógico:** Optimización del sistema de refrigeración.\n\n**Espiritual:** El agua corporal comienza a recordar su geometría original.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Beber agua con sales minerales. No forzar la hidratación."
+                  ]
+                },
+                {
+                  "id": "dia14",
+                  "titulo": "Día 14: Estabilización de VFC. Dominio parasimpático",
+                  "contenido": {
+                    "texto": "**Biológico:** Estabilización de VFC (Variabilidad de la Frecuencia Cardíaca). Dominio parasimpático.\n\n**Analógico:** Sincronización del reloj del procesador central.\n\n**Espiritual:** El corazón deja de reaccionar y comienza a dirigir.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de paz interior. Meditar para reforzar la coherencia."
+                  ]
+                },
+                {
+                  "id": "dia15",
+                  "titulo": "Día 15: Cambios en metilación del ADN. Activación de sirtuinas",
+                  "contenido": {
+                    "texto": "**Biológico:** Cambios en metilación del ADN. Activación de sirtuinas.\n\n**Analógico:** Edición de código fuente epigenético.\n\n**Espiritual:** Se despiertan potenciales dormidos del linaje.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Momento ideal para intenciones de regeneración profunda."
+                  ]
+                },
+                {
+                  "id": "dia16",
+                  "titulo": "Día 16: Señalización para movilizar células madre",
+                  "contenido": {
+                    "texto": "**Biológico:** Señalización para movilizar células madre.\n\n**Analógico:** Desbloqueo del almacén de componentes originales.\n\n**Espiritual:** El cuerpo tiene los planos originales; ahora los recupera.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de vitalidad interna. Evitar toxinas ambientales."
+                  ]
+                },
+                {
+                  "id": "dia17",
+                  "titulo": "Día 17: Reducción hepática. Eliminación de hepatocitos dañados",
+                  "contenido": {
+                    "texto": "**Biológico:** Reducción hepática. Eliminación de hepatocitos dañados.\n\n**Analógico:** Servidor principal se reduce para luego regenerarse.\n\n**Espiritual:** El laboratorio alquímico interno se limpia para nuevas síntesis.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posible sensación de desintoxicación hepática. Reposo."
+                  ]
+                },
+                {
+                  "id": "dia18",
+                  "titulo": "Día 18: Aumento de mielinización",
+                  "contenido": {
+                    "texto": "**Biológico:** Aumento de mielinización.\n\n**Analógico:** Recubrimiento de cables de transmisión.\n\n**Espiritual:** El pensamiento viaja sin interferencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Claridad mental extrema. Buena capacidad de aprendizaje."
+                  ]
+                },
+                {
+                  "id": "dia19",
+                  "titulo": "Día 19: Apoptosis masiva de células senescentes",
+                  "contenido": {
+                    "texto": "**Biológico:** Apoptosis masiva de células senescentes.\n\n**Analógico:** Último barrido de hardware obsoleto.\n\n**Espiritual:** Se libera la energía retenida en estructuras muertas.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Puede sentirse agotamiento. Es el último gran esfuerzo antes de la regeneración."
+                  ]
+                },
+                {
+                  "id": "dia20",
+                  "titulo": "Día 20: Estroma de médula ósea listo",
+                  "contenido": {
+                    "texto": "**Biológico:** Estroma de médula ósea listo.\n\n**Analógico:** Placa base vacía preparada para nuevos componentes.\n\n**Espiritual:** Silencio anterior a la creación.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Descanso profundo. El cuerpo se prepara para el renacimiento."
+                  ]
+                },
+                {
+                  "id": "dia21",
+                  "titulo": "Día 21: Explosión de células madre hematopoyéticas. Reconstrucción del sistema inmune virgen",
+                  "contenido": {
+                    "texto": "**Biológico:** Explosión de células madre hematopoyéticas. Reconstrucción del sistema inmune virgen.\n\n**Analógico:** Formateo completo del disco duro. Instalación de sistema operativo limpio.\n\n**Espiritual:** Nacimiento biológico desde la nada. Se habita un cuerpo nuevo mientras se sigue en el mismo vehículo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "⚠️ **Punto crítico.** Reposo absoluto. Solo agua con sales. No interrumpir con alimentos. Posible fatiga extrema seguida de oleada de energía limpia."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fase4",
+          "titulo": "Fase IV: Overclocking Neuronal (Días 22–32)",
+          "filosofia": "Sincronización en ondas Gamma. Optimización de la red de procesamiento.",
+          "clases": [
+            {
+              "id": "fase4_dias",
+              "titulo": "Días 22 a 32",
+              "descripcion": "Migración de células madre, producción de nuevos cardiomiocitos, reparación de mielina, ondas cerebrales gamma, regeneración de colágeno, reset del eje HPA, mitofagia, neurogénesis, optimización de canales iónicos, reorganización de fascia, coherencia del campo magnético cardíaco.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia22",
+                  "titulo": "Día 22: Migración de células madre a tejidos",
+                  "contenido": {
+                    "texto": "**Biológico:** Migración de células madre a tejidos.\n\n**Analógico:** Instalación de nuevos módulos de hardware.\n\n**Espiritual:** La vida nueva reemplaza a la vieja sin resistencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de calidez en diferentes áreas del cuerpo. Energía creciente."
+                  ]
+                },
+                {
+                  "id": "dia23",
+                  "titulo": "Día 23: Producción de nuevos cardiomiocitos",
+                  "contenido": {
+                    "texto": "**Biológico:** Producción de nuevos cardiomiocitos (células del corazón).\n\n**Analógico:** Reemplazo del procesador central por unidad de última generación.\n\n**Espiritual:** El centro emocional late con un ritmo no contaminado.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posible sensación de apertura en el pecho. Gratitud."
+                  ]
+                },
+                {
+                  "id": "dia24",
+                  "titulo": "Día 24: Reparación de mielina en SNC",
+                  "contenido": {
+                    "texto": "**Biológico:** Reparación de mielina en Sistema Nervioso Central.\n\n**Analógico:** Optimización de buses de datos.\n\n**Espiritual:** Claridad instantánea. El pensamiento se vuelve percepción directa.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Mayor capacidad de concentración. Posibles insights repentinos."
+                  ]
+                },
+                {
+                  "id": "dia25",
+                  "titulo": "Día 25: Ondas cerebrales gamma (30–100 Hz)",
+                  "contenido": {
+                    "texto": "**Biológico:** Ondas cerebrales gamma (30–100 Hz).\n\n**Analógico:** Sincronización del reloj del sistema a alta frecuencia.\n\n**Espiritual:** Estados unitarios. Percepción expandida.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Meditación profunda. Pueden aparecer experiencias de unidad."
+                  ]
+                },
+                {
+                  "id": "dia26",
+                  "titulo": "Día 26: Regeneración de colágeno y elastina",
+                  "contenido": {
+                    "texto": "**Biológico:** Regeneración de colágeno y elastina.\n\n**Analógico:** Reemplazo de la carcasa externa.\n\n**Espiritual:** El cuerpo se vuelve transparente a la luz que lo habita.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "La piel mejora su textura. Sensación de ligereza."
+                  ]
+                },
+                {
+                  "id": "dia27",
+                  "titulo": "Día 27: Reset del eje HPA. Normalización de cortisol",
+                  "contenido": {
+                    "texto": "**Biológico:** Reset del eje Hipotálamo‑Pituitaria‑Adrenal. Normalización de cortisol.\n\n**Analógico:** Recalibración del sistema de alarmas.\n\n**Espiritual:** Fin de la hipervigilancia. Confianza basal.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de calma profunda. Reducción de ansiedad."
+                  ]
+                },
+                {
+                  "id": "dia28",
+                  "titulo": "Día 28: Mitofagia. Reemplazo de mitocondrias defectuosas",
+                  "contenido": {
+                    "texto": "**Biológico:** Mitofagia. Reemplazo de mitocondrias defectuosas.\n\n**Analógico:** Sustitución de fuentes de alimentación por unidades más eficientes.\n\n**Espiritual:** Energía sostenible. Vitalidad sin desgaste.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Niveles de energía muy estables. Buen humor."
+                  ]
+                },
+                {
+                  "id": "dia29",
+                  "titulo": "Día 29: Neurogénesis máxima en hipocampo",
+                  "contenido": {
+                    "texto": "**Biológico:** Neurogénesis máxima en hipocampo.\n\n**Analógico:** Ampliación de memoria RAM.\n\n**Espiritual:** El pasado deja de ocupar espacio. El presente se procesa íntegro.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Capacidad de aprendizaje acelerada. Buena memoria."
+                  ]
+                },
+                {
+                  "id": "dia30",
+                  "titulo": "Día 30: Optimización de canales iónicos",
+                  "contenido": {
+                    "texto": "**Biológico:** Optimización de canales iónicos.\n\n**Analógico:** Circuitos impresos con conductividad superconductora.\n\n**Espiritual:** El cuerpo se convierte en canal puro entre intención y manifestación.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de fluidez en los movimientos. Conexión mente‑cuerpo aumentada."
+                  ]
+                },
+                {
+                  "id": "dia31",
+                  "titulo": "Día 31: Reorganización de fascia en tensointegridad",
+                  "contenido": {
+                    "texto": "**Biológico:** Reorganización de fascia en tensointegridad.\n\n**Analógico:** Arquitectura de red en topología de malla.\n\n**Espiritual:** Soporte estructural para sostener mayor carga energética.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Postura mejorada. Sensación de integración estructural."
+                  ]
+                },
+                {
+                  "id": "dia32",
+                  "titulo": "Día 32: Coherencia continua del campo magnético cardíaco",
+                  "contenido": {
+                    "texto": "**Biológico:** Coherencia continua del campo magnético cardíaco.\n\n**Analógico:** Campo electromagnético como antena de alta ganancia.\n\n**Espiritual:** La presencia física afecta el entorno. Sanación por proximidad.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Mayor conexión con los demás. Posibles experiencias de sincronicidad."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fase5",
+          "titulo": "Fase V: Hibridación Carbono‑Luz (Días 33–40)",
+          "filosofia": "Sellado de la nueva arquitectura. Migración completa al cuerpo de reemplazo.",
+          "clases": [
+            {
+              "id": "fase5_dias",
+              "titulo": "Días 33 a 40",
+              "descripcion": "Diferenciación funcional completa, reconfiguración del set point hormonal, perfil lipídico y glucémico óptimo, reducción de edad epigenética, fusión de coherencia cardíaca y cerebral, sistema inmune adaptativo repoblado, máxima eficiencia energética, culminación del cuerpo de reemplazo.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia33",
+                  "titulo": "Día 33: Diferenciación funcional completa de células madre",
+                  "contenido": {
+                    "texto": "**Biológico:** Diferenciación funcional completa de células madre.\n\n**Analógico:** Firmware de cada órgano actualizado y estabilizado.\n\n**Espiritual:** El cuerpo ya no lucha contra sí mismo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de integridad. Todos los sistemas operan en armonía."
+                  ]
+                },
+                {
+                  "id": "dia34",
+                  "titulo": "Día 34: Reconfiguración del set point hormonal y metabólico",
+                  "contenido": {
+                    "texto": "**Biológico:** Reconfiguración del set point hormonal y metabólico.\n\n**Analógico:** Nuevo perfil de energía base (TDP) más bajo para mismo rendimiento.\n\n**Espiritual:** Se requiere menos materia para sostener más vida.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Metabolismo eficiente. Menor necesidad de alimento."
+                  ]
+                },
+                {
+                  "id": "dia35",
+                  "titulo": "Día 35: Perfil lipídico y glucémico óptimo. Ausencia de proteínas inflamatorias",
+                  "contenido": {
+                    "texto": "**Biológico:** Perfil lipídico y glucémico óptimo. Ausencia de proteínas inflamatorias.\n\n**Analógico:** Refrigerante líquido químicamente puro.\n\n**Espiritual:** La sangre es información pura.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Marcadores sanguíneos en rangos ideales."
+                  ]
+                },
+                {
+                  "id": "dia36",
+                  "titulo": "Día 36: Reducción de edad epigenética. Mantenimiento telomérico",
+                  "contenido": {
+                    "texto": "**Biológico:** Reducción de edad epigenética. Mantenimiento telomérico.\n\n**Analógico:** Actualización de fecha de fabricación del hardware.\n\n**Espiritual:** La biología ya no registra el tiempo lineal.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de juventud renovada."
+                  ]
+                },
+                {
+                  "id": "dia37",
+                  "titulo": "Día 37: Fusión de coherencia cardíaca y cerebral",
+                  "contenido": {
+                    "texto": "**Biológico:** Fusión de coherencia cardíaca y cerebral.\n\n**Analógico:** Procesadores operando bajo un mismo reloj con memoria unificada.\n\n**Espiritual:** Intuición y razón ya no están separadas.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Decisiones alineadas. Claridad total."
+                  ]
+                },
+                {
+                  "id": "dia38",
+                  "titulo": "Día 38: Sistema inmune adaptativo completamente repoblado",
+                  "contenido": {
+                    "texto": "**Biológico:** Sistema inmune adaptativo completamente repoblado.\n\n**Analógico:** Sistema de defensa con base de datos actualizada.\n\n**Espiritual:** No hay lucha contra lo externo. Reconocimiento de lo que es uno.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Mayor resistencia a patógenos."
+                  ]
+                },
+                {
+                  "id": "dia39",
+                  "titulo": "Día 39: Máxima eficiencia energética. Agua corporal como cristal líquido",
+                  "contenido": {
+                    "texto": "**Biológico:** Máxima eficiencia energética. Agua corporal como cristal líquido.\n\n**Analógico:** Hardware en eficiencia teórica máxima.\n\n**Espiritual:** El cuerpo se ha convertido en antena de alta fidelidad para la conciencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de estar hechos de luz."
+                  ]
+                },
+                {
+                  "id": "dia40",
+                  "titulo": "Día 40: Culminación. Cuerpo de reemplazo completamente operativo",
+                  "contenido": {
+                    "texto": "**Biológico:** Culminación. Cuerpo de reemplazo completamente operativo.\n\n**Analógico:** Migración completada. Código optimizado sobre hardware renovado.\n\n**Espiritual:** Se habita un cuerpo capaz de sostener frecuencias de luz pura. La materia informada por el espíritu.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "⚠️ **Inicio del refeeding.** Seguir protocolo de reingreso (caldo, vegetales cocidos, progresión lenta). El sistema recién formateado es extremadamente sensible."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glosario",
+          "titulo": "Glosario Técnico‑Espiritual",
+          "filosofia": "Léxico de referencia para la práctica y difusión del Biohacking Estructural, unificando biología molecular, ingeniería de sistemas y sabiduría espiritual.",
+          "clases": [
+            {
+              "id": "glosario_terminos",
+              "titulo": "Términos Fundamentales",
+              "descripcion": "Definiciones operativas de los conceptos clave del protocolo.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "term_ampk",
+                  "titulo": "AMPK",
+                  "contenido": {
+                    "texto": "**Biológico:** Proteína quinasa activada por AMP; sensor energético celular que se activa ante la falta de glucosa y estimula la autofagia.\n\n**Analógico:** Interruptor maestro que detecta la ausencia de carga externa y cambia el sistema al modo de ahorro y reciclaje.\n\n**Espiritual:** La alarma que despierta al organismo cuando deja de depender de combustible externo y comienza a mirar hacia sus propias reservas profundas.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_apoptosis",
+                  "titulo": "Apoptosis",
+                  "contenido": {
+                    "texto": "**Biológico:** Muerte celular programada, un proceso ordenado de eliminación de células dañadas, viejas o innecesarias.\n\n**Analógico:** Desinstalación controlada de software obsoleto y eliminación de procesos zombi que consumen recursos sin función.\n\n**Espiritual:** El arte de dejar morir lo que ya no sirve para que lo nuevo pueda nacer.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_atleta_cuantico",
+                  "titulo": "Atleta Cuántico",
+                  "contenido": {
+                    "texto": "**Biológico:** Organismo humano optimizado mediante el protocolo de ayuno prolongado y regeneración celular, con sistema inmune virgen, mitocondrias eficientes y coherencia cardíaca‑cerebral.\n\n**Analógico:** Hardware actualizado a su máxima capacidad de procesamiento, con refrigeración superconductora y latencia cero.\n\n**Espiritual:** El ser humano que ha transmutado su biología para operar como canal de frecuencias superiores y manifestar su intención con eficacia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_autofagia_cuantica",
+                  "titulo": "Autofagia Cuántica",
+                  "contenido": {
+                    "texto": "**Biológico:** Proceso celular de reciclaje de componentes dañados (proteínas mal plegadas, mitocondrias oxidadas) inducido por ayuno y restricción calórica.\n\n**Analógico:** Limpieza de archivos temporales, fragmentos de disco y programas corruptos; recuperación de espacio en el disco duro.\n\n**Espiritual:** El fuego interno que consume la imperfección y transforma la materia degradada en combustible para la regeneración.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_bdnf",
+                  "titulo": "BDNF (Factor Neurotrófico Derivado del Cerebro)",
+                  "contenido": {
+                    "texto": "**Biológico:** Proteína que promueve la supervivencia neuronal, la neurogénesis y la plasticidad sináptica; aumenta con el ayuno y el ejercicio.\n\n**Analógico:** Actualización de controladores de red y reparación de cables de transmisión de datos.\n\n**Espiritual:** La apertura de nuevas rutas de percepción; la mente recupera su capacidad de aprender y adaptación.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_biohacking_estructural",
+                  "titulo": "Biohacking Estructural",
+                  "contenido": {
+                    "texto": "**Biológico:** Conjunto de intervenciones (ayuno, suplementación, exposición ambiental, manejo de luz) que modifican la expresión genética, la regeneración celular y la coherencia sistémica.\n\n**Analógico:** Ingeniería de hardware y firmware para optimizar el rendimiento de un sistema operativo.\n\n**Espiritual:** La disciplina de diseñar conscientemente el vehículo físico para que sirva a la evolución de la conciencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_celulas_madre",
+                  "titulo": "Células Madre (Hematopoyéticas)",
+                  "contenido": {
+                    "texto": "**Biológico:** Células indiferenciadas con capacidad de autorrenovación y diferenciación en múltiples tipos celulares; su proliferación se dispara alrededor del día 21 de ayuno prolongado.\n\n**Analógico:** Componentes originales de fábrica; tras un formateo, se instalan nuevos módulos de hardware.\n\n**Espiritual:** La semilla virgen, libre de memorias de enfermedad, que permite construir un cuerpo de reemplazo mientras se habita el anterior.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_celulas_senecentes",
+                  "titulo": "Células Senescentes ('Células Zombi')",
+                  "contenido": {
+                    "texto": "**Biológico:** Células que han detenido su división pero no mueren, secretando moléculas inflamatorias que envejecen los tejidos circundantes.\n\n**Analógico:** Procesos en segundo plano que consumen memoria y generan calor residual sin aportar trabajo útil.\n\n**Espiritual:** Las estructuras internas que ya no sirven a la vida pero se resisten a desaparecer.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_cetosis",
+                  "titulo": "Cetosis",
+                  "contenido": {
+                    "texto": "**Biológico:** Estado metabólico en el que el hígado produce cuerpos cetónicos a partir de ácidos grasos, utilizados como combustible por el cerebro y otros tejidos.\n\n**Analógico:** Cambio del kernel del sistema operativo; el sistema deja de usar electricidad de la red (glucosa) y pasa a energía interna de alta eficiencia.\n\n**Espiritual:** La mente deja de depender de estímulos externos y se alimenta de la propia luz interior.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_coherencia_gamma",
+                  "titulo": "Coherencia Gama",
+                  "contenido": {
+                    "texto": "**Biológico:** Patrón de ondas cerebrales en el rango de 30‑100 Hz, asociado a estados de máxima integración cognitiva, percepción expandida y sincronía neuronal.\n\n**Analógico:** Sincronización del reloj del sistema a una frecuencia de reloj ultra alta; todos los núcleos procesan en paralelo sin colisiones.\n\n**Espiritual:** La unidad de percepción; el colapso del velo entre el yo y el todo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_coherencia_cardiaca",
+                  "titulo": "Coherencia Cardíaca",
+                  "contenido": {
+                    "texto": "**Biológico:** Patrón rítmico de la variabilidad de la frecuencia cardíaca (VFC) en el que el corazón envía señales eléctricas y magnéticas armónicas a todo el organismo.\n\n**Analógico:** El procesador central emite un pulso de reloj estable que sincroniza todos los buses del sistema.\n\n**Espiritual:** El corazón como centro de inteligencia emocional y espiritual; cuando es coherente, ordena la biología entera.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_cuerpo_luz",
+                  "titulo": "Cuerpo de Luz",
+                  "contenido": {
+                    "texto": "**Biológico:** Estado final de la hibridación carbono‑luz, donde el agua corporal está estructurada hexagonalmente y la biología opera con máxima conductividad eléctrica y mínima resistencia.\n\n**Analógico:** Hardware líquido de transmisión superconductora, con capacidad de procesamiento cuántico.\n\n**Espiritual:** El vehículo de la conciencia purificado y transfigurado, capaz de sostener frecuencias divinas.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_eje_hpa",
+                  "titulo": "Eje HPA (Hipotálamo‑Pituitaria‑Adrenal)",
+                  "contenido": {
+                    "texto": "**Biológico:** Circuito neuroendocrino que regula la respuesta al estrés.\n\n**Analógico:** Sistema de alarmas y gestión de crisis del hardware.\n\n**Espiritual:** La posibilidad de recalibrar la reacción automática para responder desde la paz y no desde el miedo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_foxo",
+                  "titulo": "FOXO",
+                  "contenido": {
+                    "texto": "**Biológico:** Factores de transcripción que promueven la longevidad, la resistencia al estrés y la autofagia; se activan en condiciones de ayuno.\n\n**Analógico:** Scripts de mantenimiento del sistema que se ejecutan en segundo plano cuando el procesador está en reposo.\n\n**Espiritual:** Los mecanismos que convierten la privación en fortaleza y la fragilidad en resiliencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_frecuencia_vida",
+                  "titulo": "Frecuencia de Vida",
+                  "contenido": {
+                    "texto": "**Biológico:** Coherencia electromagnética del campo cardíaco cuando opera sin interferencia de estrés, inflamación o pensamientos discordantes.\n\n**Analógico:** Frecuencia portadora limpia que modula toda la transmisión de datos en el sistema.\n\n**Espiritual:** La vibración en la que la biología se alinea con la intención del espíritu.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_hardware_liquido",
+                  "titulo": "Hardware Líquido",
+                  "contenido": {
+                    "texto": "**Biológico:** Agua corporal (≈70% del organismo) cuando adopta una geometría hexagonal coherente, mejorando la conductividad eléctrica y la transmisión de señales.\n\n**Analógico:** Fluido refrigerante que también actúa como medio de transferencia de datos superconductora.\n\n**Espiritual:** La materia fluida que se vuelve transparente a la luz y permite que la intención viaje sin distorsión.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_hibridacion",
+                  "titulo": "Hibridación Carbono‑Luz",
+                  "contenido": {
+                    "texto": "**Biológico:** Estado en el que la biología de carbono ha sido optimizada para sostener frecuencias electromagnéticas más altas sin degradación.\n\n**Analógico:** Hardware diseñado para operar con voltajes superiores sin sobrecalentamiento.\n\n**Espiritual:** La integración de lo material y lo espiritual en una sola arquitectura; la materia informada por el espíritu.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_igf1",
+                  "titulo": "IGF‑1 (Factor de Crecimiento Similar a la Insulina)",
+                  "contenido": {
+                    "texto": "**Biológico:** Hormona que promueve el crecimiento celular pero, en exceso, acelera el envejecimiento y la proliferación cancerígena; desciende drásticamente con el ayuno.\n\n**Analógico:** Regulador de la velocidad de crecimiento del sistema; su reducción permite pausar la expansión para dedicar recursos a la reparación.\n\n**Espiritual:** La renuncia al crecimiento desmedido para permitir la profundización.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_mitofagia",
+                  "titulo": "Mitofagia",
+                  "contenido": {
+                    "texto": "**Biológico:** Autofagia específica de mitocondrias; eliminación de centrales energéticas defectuosas y reemplazo por mitocondrias nuevas y eficientes.\n\n**Analógico:** Sustitución de fuentes de alimentación ruidosas por unidades de alta eficiencia con bajo calor residual.\n\n**Espiritual:** Renovación de la energía vital en su fuente más íntima.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_mtor",
+                  "titulo": "mTOR (Mammalian Target of Rapamycin)",
+                  "contenido": {
+                    "texto": "**Biológico:** Vía de señalización que promueve el crecimiento celular; se inhibe durante el ayuno, permitiendo la autofagia.\n\n**Analógico:** Interruptor que activa los procesos de expansión; su desactivación libera recursos para el mantenimiento y reparación.\n\n**Espiritual:** El principio de crecimiento incesante que debe ser detenido periódicamente para que la profundidad pueda emerger.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_neurogenesis",
+                  "titulo": "Neurogénesis",
+                  "contenido": {
+                    "texto": "**Biológico:** Formación de nuevas neuronas, especialmente en el hipocampo; promovida por ayuno, BDNF y ejercicio.\n\n**Analógico:** Expansión de la memoria RAM y generación de nuevos núcleos de procesamiento.\n\n**Espiritual:** La capacidad de re‑escribir la historia personal desde una perspectiva nueva.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_overclocking",
+                  "titulo": "Overclocking Neuronal",
+                  "contenido": {
+                    "texto": "**Biológico:** Aumento de la sincronía y frecuencia de las ondas cerebrales hacia el rango gamma, con aumento de la velocidad de procesamiento cognitivo.\n\n**Analógico:** Elevación de la frecuencia de reloj del procesador para obtener mayor rendimiento, manteniendo la estabilidad térmica.\n\n**Espiritual:** La aceleración de la percepción hasta que el tiempo lineal se diluye y la conciencia opera en presente continuo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_proteinas_choque",
+                  "titulo": "Proteínas de Choque Térmico (HSP)",
+                  "contenido": {
+                    "texto": "**Biológico:** Moléculas que protegen a otras proteínas del daño y ayudan en su correcto plegamiento; aumentan con el ayuno y el estrés controlado.\n\n**Analógico:** Mecanismos de corrección de errores y tolerancia a fallos que se activan bajo condiciones extremas.\n\n**Espiritual:** La resiliencia que se cultiva al enfrentar el fuego de la transformación.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_sirtuinas",
+                  "titulo": "Sirtuinas",
+                  "contenido": {
+                    "texto": "**Biológico:** Familia de proteínas que regulan el envejecimiento, la inflamación y la resistencia al estrés; se activan con ayuno y restricción calórica.\n\n**Analógico:** Controladores de longevidad del hardware; optimizan el uso de recursos para extender la vida operativa.\n\n**Espiritual:** La sabiduría que convierte la limitación en oportunidad de trascendencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_so_biologico",
+                  "titulo": "Sistema Operativo Biológico",
+                  "contenido": {
+                    "texto": "**Biológico:** Conjunto de procesos homeostáticos, genéticos y epigenéticos que gobiernan el funcionamiento del organismo.\n\n**Analógico:** El software base que coordina el hardware; puede ser reinstalado, actualizado o depurado.\n\n**Espiritual:** La estructura de creencias y patrones que determinan cómo la conciencia se expresa en la materia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_tensointegridad",
+                  "titulo": "Tensointegridad (Tensegrity)",
+                  "contenido": {
+                    "texto": "**Biológico:** Principio estructural en el que los huesos flotan en una red de tensiones de fascia y músculos, distribuyendo las cargas de manera eficiente.\n\n**Analógico:** Arquitectura de red distribuida sin puntos únicos de fallo.\n\n**Espiritual:** La integridad estructural que permite sostener fuerzas mayores sin colapsar.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_vfc",
+                  "titulo": "VFC (Variabilidad de la Frecuencia Cardíaca)",
+                  "contenido": {
+                    "texto": "**Biológico:** Medida de la variación en los intervalos entre latidos; un patrón coherente indica equilibrio autonómico y salud.\n\n**Analógico:** Estabilidad del reloj maestro del sistema; una VFC coherente sincroniza todos los subsistemas.\n\n**Espiritual:** La respiración rítmica del corazón que refleja la armonía entre cuerpo, emoción y espíritu.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
