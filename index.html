@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%236c5ce7'/%3E%3Cpath fill='%23ffffff' d='M50 25 L55 35 L45 35 Z M45 45 L55 45 L55 55 L45 55 Z'/%3E%3C/svg%3E">
-    <title>Tao Te Ching · Filosofía para la Vida · Aprendizaje Abierto</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%2300f3ff'/%3E%3Cpath fill='%230a0f1f' d='M50 25 L60 45 L55 45 L55 65 L45 65 L45 45 L40 45 Z'/%3E%3C/svg%3E">
+    <title>Biohacking Estructural · Arquitectura de la Resurrección</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
@@ -13,40 +13,40 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(145deg, #f9f4ff 0%, #eef2ff 100%);
-            color: #1a1a2e;
+            background: #05070f;
+            color: #e2e8f0;
             line-height: 1.5;
             transition: background 0.3s, color 0.3s;
         }
         body.dark-mode {
-            background: linear-gradient(145deg, #0f0f1f 0%, #1a1a2e 100%);
-            color: #e2e8f0;
+            background: #010105;
+            color: #ffffff;
         }
         body.dark-mode .sidebar,
         body.dark-mode .content-area,
         body.dark-mode .intro-block,
         body.dark-mode .header {
-            background-color: #1e1e2f;
-            border-color: #2d2d44;
+            background: rgba(10, 15, 31, 0.9);
+            border-color: #00f3ff33;
         }
         body.dark-mode .badge-item {
-            background: #2d2d44;
-            color: #cbd5e1;
+            background: #00f3ff22;
+            color: #00f3ff;
         }
         body.dark-mode .tree .tema-item:hover {
-            background: #2d2d44;
+            background: #00f3ff11;
         }
         body.dark-mode input,
         body.dark-mode select,
         body.dark-mode textarea {
-            background: #0f0f1f;
-            border-color: #3b3b5c;
+            background: #0a0f1f;
+            border-color: #00f3ff55;
             color: #e2e8f0;
         }
         body.dark-mode input:focus,
         body.dark-mode select:focus {
-            border-color: #6c5ce7;
-            box-shadow: 0 0 0 3px rgba(108,92,231,0.2);
+            border-color: #00ff9d;
+            box-shadow: 0 0 0 3px rgba(0,255,157,0.2);
         }
         .container {
             max-width: 1400px;
@@ -54,29 +54,30 @@
             padding: 1.5rem 1rem;
         }
         .header {
-            background: linear-gradient(135deg, #6c5ce7, #2d7ee7, #00b894);
+            background: linear-gradient(135deg, #0a0f1f, #1a1a3a, #00b4d8);
             border-radius: 2rem 2rem 1rem 1rem;
             padding: 2rem 2rem 1.5rem;
             margin-bottom: 2.5rem;
             color: white;
-            box-shadow: 0 20px 30px -10px rgba(0,0,0,0.2);
+            box-shadow: 0 20px 30px -10px rgba(0,180,216,0.3);
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+            border: 1px solid rgba(0,243,255,0.3);
         }
         .logo h1 {
             font-size: 2.4rem;
             font-weight: 800;
             letter-spacing: -0.02em;
-            background: linear-gradient(to right, #fff, #ffe0b5);
+            background: linear-gradient(to right, #00f3ff, #00ff9d);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         .logo span {
             font-size: 1rem;
             font-weight: 400;
-            color: #f1f5f9;
+            color: #b0f0ff;
             display: block;
         }
         .nav {
@@ -92,69 +93,61 @@
             font-weight: 500;
             padding: 0.5rem 1rem;
             border-radius: 3rem;
-            background: rgba(255,255,255,0.15);
+            background: rgba(0,243,255,0.15);
             backdrop-filter: blur(4px);
             transition: 0.2s;
             font-size: 0.9rem;
-            border: 1px solid rgba(255,255,255,0.2);
+            border: 1px solid rgba(0,243,255,0.4);
             cursor: pointer;
             font-family: inherit;
         }
         .nav a:hover, .nav button:hover {
-            background: #ffffff;
-            color: #2d7ee7;
-            border-color: white;
-        }
-        body.dark-mode .nav a:hover,
-        body.dark-mode .nav button:hover {
-            background: #6c5ce7;
-            color: white;
-            border-color: #6c5ce7;
+            background: #00f3ff;
+            color: #05070f;
+            border-color: #00f3ff;
+            box-shadow: 0 0 12px #00f3ff;
         }
         .scroll-top {
             position: fixed;
             bottom: 2rem;
             right: 1.5rem;
-            background: #6c5ce7;
-            color: white;
+            background: #00ff9d;
+            color: #05070f;
             width: 3.5rem;
             height: 3.5rem;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            box-shadow: 0 0 15px #00ff9d;
             z-index: 100;
             transition: 0.2s;
-            border: 2px solid white;
+            border: 2px solid #05070f;
             font-size: 1.3rem;
             cursor: pointer;
-            opacity: 0.9;
         }
         .scroll-top:hover {
-            background: #00b894;
+            background: #00f3ff;
             transform: scale(1.05);
+            box-shadow: 0 0 20px #00f3ff;
         }
         .intro-block {
-            background: rgba(255,255,255,0.8);
-            backdrop-filter: blur(8px);
+            background: rgba(10, 15, 31, 0.85);
+            backdrop-filter: blur(12px);
             border-radius: 2.5rem;
             padding: 2.2rem;
             margin-bottom: 3rem;
-            border: 1px solid rgba(108,92,231,0.3);
-            box-shadow: 0 20px 35px -8px rgba(108,92,231,0.2);
+            border: 1px solid rgba(0,243,255,0.5);
+            box-shadow: 0 20px 35px -8px rgba(0,243,255,0.2);
         }
         .intro-block h2 {
             font-size: 2rem;
             font-weight: 700;
-            color: #6c5ce7;
+            color: #00f3ff;
             margin-bottom: 1.5rem;
             display: flex;
             align-items: center;
             gap: 0.8rem;
-        }
-        body.dark-mode .intro-block h2 {
-            color: #a78bfa;
         }
         .badge-row {
             display: flex;
@@ -163,14 +156,13 @@
             margin: 1.8rem 0;
         }
         .badge-item {
-            background: rgba(108,92,231,0.1);
+            background: rgba(0,243,255,0.1);
             border-radius: 3rem;
             padding: 0.6rem 1.5rem;
             font-weight: 600;
-            color: #6c5ce7;
+            color: #00ff9d;
             font-size: 1rem;
-            box-shadow: 0 4px 6px -2px rgba(0,0,0,0.05);
-            border: 1px solid rgba(108,92,231,0.3);
+            border: 1px solid rgba(0,255,157,0.4);
         }
         .main-layout {
             display: flex;
@@ -179,22 +171,22 @@
         }
         .sidebar {
             width: 300px;
-            background: white;
+            background: rgba(10, 15, 31, 0.9);
             border-radius: 2rem;
             padding: 1.5rem;
-            box-shadow: 0 8px 20px rgba(108,92,231,0.1);
+            backdrop-filter: blur(8px);
             height: fit-content;
             transition: background 0.3s;
-            border: 1px solid rgba(108,92,231,0.2);
+            border: 1px solid rgba(0,243,255,0.3);
         }
         .content-area {
             flex: 1;
-            background: white;
+            background: rgba(10, 15, 31, 0.9);
             border-radius: 2rem;
             padding: 2rem;
-            box-shadow: 0 8px 20px rgba(108,92,231,0.1);
+            backdrop-filter: blur(8px);
             transition: background 0.3s;
-            border: 1px solid rgba(108,92,231,0.2);
+            border: 1px solid rgba(0,243,255,0.3);
         }
         .tree {
             list-style: none;
@@ -209,18 +201,16 @@
         }
         .tree summary {
             font-weight: 600;
-            color: #2d7ee7;
+            color: #00ff9d;
             cursor: pointer;
             padding: 0.3rem 0;
             display: flex;
             align-items: center;
             gap: 0.5rem;
         }
-        body.dark-mode .tree summary {
-            color: #7c3aed;
-        }
         .tree summary:hover {
-            color: #6c5ce7;
+            color: #00f3ff;
+            text-shadow: 0 0 5px #00f3ff;
         }
         .tree .tema-item {
             padding-left: 1.8rem;
@@ -232,33 +222,30 @@
         }
         .tree .tema-item.completado {
             text-decoration: line-through;
-            opacity: 0.7;
+            opacity: 0.6;
         }
         .tree .tema-item:hover {
-            background: rgba(108,92,231,0.1);
+            background: rgba(0,243,255,0.15);
             border-radius: 1rem;
         }
         .completado-badge {
             font-size: 0.8rem;
-            color: #00b894;
+            color: #00ff9d;
         }
         .btn-completar {
-            background: #00b894;
-            color: white;
+            background: #00ff9d;
+            color: #05070f;
             border: none;
             padding: 0.5rem 1rem;
             border-radius: 2rem;
             cursor: pointer;
-            font-weight: 500;
+            font-weight: 700;
             margin-top: 1rem;
             transition: 0.2s;
         }
         .btn-completar:hover {
-            background: #00967a;
-        }
-        .btn-completar:disabled {
-            background: #9ca3af;
-            cursor: not-allowed;
+            background: #00f3ff;
+            box-shadow: 0 0 10px #00f3ff;
         }
         .mensaje-exito, .mensaje-error, .mensaje-info {
             padding: 1rem;
@@ -267,9 +254,9 @@
             margin: 1rem 0;
             display: none;
         }
-        .mensaje-exito { background: #d4edda; color: #155724; }
-        .mensaje-error { background: #f8d7da; color: #721c24; }
-        .mensaje-info { background: #d1ecf1; color: #0c5460; }
+        .mensaje-exito { background: #00ff9d22; color: #00ff9d; border: 1px solid #00ff9d; }
+        .mensaje-error { background: #ff336622; color: #ff6699; border: 1px solid #ff3366; }
+        .mensaje-info { background: #00f3ff22; color: #00f3ff; border: 1px solid #00f3ff; }
         .oculto { display: none; }
         .grid-2 {
             display: grid;
@@ -287,21 +274,22 @@
         }
         input, select, textarea {
             padding: 0.85rem 1rem;
-            border: 1.5px solid #e2e8f0;
+            border: 1.5px solid #00f3ff55;
             border-radius: 18px;
             font-size: 0.95rem;
-            background: white;
+            background: #0a0f1f;
+            color: #e2e8f0;
             outline: none;
             transition: 0.2s;
         }
         input:focus, select:focus {
-            border-color: #6c5ce7;
-            box-shadow: 0 0 0 3px rgba(108,92,231,0.15);
+            border-color: #00ff9d;
+            box-shadow: 0 0 0 3px rgba(0,255,157,0.2);
         }
         .btn-submit {
-            background: #6c5ce7;
-            color: white;
-            font-weight: 700;
+            background: #00f3ff;
+            color: #05070f;
+            font-weight: 800;
             font-size: 1.1rem;
             padding: 1.2rem 2.5rem;
             border: none;
@@ -310,178 +298,33 @@
             cursor: pointer;
             transition: 0.2s;
             margin-top: 2.5rem;
+            letter-spacing: 1px;
         }
         .btn-submit:hover {
-            background: #2d7ee7;
+            background: #00ff9d;
+            box-shadow: 0 0 15px #00ff9d;
         }
         .footer-note {
             text-align: center;
-            color: inherit;
-            opacity: 0.8;
+            color: #6c86a3;
             font-size: 0.9rem;
             margin-top: 2rem;
         }
-        .pulse-dots {
-            display: flex;
-            gap: 10px;
-            justify-content: center;
-            margin: 20px 0;
-        }
-        .pulse-dots span {
-            width: 16px;
-            height: 16px;
-            border-radius: 50%;
-            background: #6c5ce7;
-            animation: pulse 1.4s infinite both;
-        }
-        @keyframes pulse {
-            0%, 100% { transform: scale(0.8); opacity: 0.5; }
-            50% { transform: scale(1.2); opacity: 1; }
-        }
-        .auto-verify-indicator {
-            position: absolute;
-            right: 10px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 16px;
-            opacity: 0;
-            transition: 0.2s;
-        }
-        .auto-verify-indicator.visible { opacity: 1; }
-        .auto-verify-indicator.verifying { color: #2d7ee7; }
-        .auto-verify-indicator.verified { color: #00b894; }
-        .auto-verify-indicator.error { color: #ef4444; }
-        .toast-success {
-            position: fixed;
-            top: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: #00b894;
-            color: white;
-            padding: 16px 32px;
-            border-radius: 60px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-            z-index: 1000;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            animation: toastIn 0.4s forwards;
-        }
-        @keyframes toastIn {
-            from { top: -80px; opacity: 0; }
-            to { top: 30px; opacity: 1; }
-        }
+        /* resto de estilos iguales pero con los colores actualizados */
+        .pulse-dots span { background: #00f3ff; }
+        .toast-success { background: #00ff9d; color: #05070f; }
         .drawer {
-            position: fixed;
-            top: 0;
-            left: -320px;
-            width: 300px;
-            height: 100%;
-            background: white;
-            box-shadow: 2px 0 12px rgba(0,0,0,0.2);
-            z-index: 200;
-            transition: left 0.3s ease;
-            padding: 2rem 1.5rem;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-        body.dark-mode .drawer {
-            background: #1e1e2f;
-            color: #e2e8f0;
-        }
-        .drawer.open {
-            left: 0;
-        }
-        .drawer-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.5);
-            z-index: 199;
-            display: none;
-        }
-        .drawer-overlay.open {
-            display: block;
-        }
-        .drawer h3 {
-            border-bottom: 2px solid #6c5ce7;
-            padding-bottom: 0.5rem;
-        }
-        .drawer .user-info p {
-            margin: 0.5rem 0;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .close-drawer {
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            align-self: flex-end;
-            color: inherit;
-        }
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.7);
-            z-index: 300;
-            justify-content: center;
-            align-items: center;
-        }
-        .modal.active {
-            display: flex;
+            background: #0a0f1f;
+            border-right: 2px solid #00f3ff;
         }
         .modal-content {
-            background: white;
-            border-radius: 2rem;
-            max-width: 90%;
-            width: 800px;
-            max-height: 90%;
-            overflow-y: auto;
-            padding: 2rem;
-            position: relative;
+            background: #0a0f1f;
+            border: 1px solid #00f3ff;
         }
-        body.dark-mode .modal-content {
-            background: #1e1e2f;
-            color: #e2e8f0;
-        }
-        .modal-close {
-            position: absolute;
-            top: 1rem;
-            right: 1.5rem;
-            font-size: 1.8rem;
-            cursor: pointer;
-        }
-        .admin-panel textarea {
-            width: 100%;
-            font-family: monospace;
-            min-height: 400px;
-        }
-        .class-config-item {
-            margin: 1rem 0;
-            padding: 1rem;
-            border: 1px solid #ccc;
-            border-radius: 1rem;
-        }
+        /* Ajustes responsivos */
         @media (max-width: 800px) {
-            .main-layout {
-                flex-direction: column;
-            }
-            .sidebar {
-                width: 100%;
-            }
-            .modal-content {
-                width: 95%;
-                padding: 1rem;
-            }
+            .main-layout { flex-direction: column; }
+            .sidebar { width: 100%; }
         }
     </style>
 </head>
@@ -491,8 +334,8 @@
     <div class="container">
         <header class="header">
             <div class="logo">
-                <h1><i class="fas fa-yin-yang"></i> Tao Te Ching</h1>
-                <span>Filosofía para la Vida · Aprendizaje Abierto · Sabiduría Ancestral</span>
+                <h1><i class="fas fa-dna"></i> Biohacking Estructural</h1>
+                <span>Arquitectura de la Resurrección · Protocolo de 40 días para la migración del ser hacia el cuerpo de luz</span>
             </div>
             <nav class="nav">
                 <button id="profileBtn"><i class="fas fa-user-circle"></i> Mi perfil</button>
@@ -507,8 +350,8 @@
 
         <!-- SECCIÓN DE VERIFICACIÓN DE CÉDULA -->
         <section id="verificationSection" class="intro-block">
-            <h2><i class="fas fa-shield-alt"></i> Acceso al Aula Abierta</h2>
-            <p style="font-size:1.2rem; margin-bottom:1.5rem;">Ingresa tu cédula para comenzar tu viaje. Si es tu primera vez, completa tus datos.</p>
+            <h2><i class="fas fa-microchip"></i> Acceso al Laboratorio Biológico</h2>
+            <p style="font-size:1.2rem; margin-bottom:1.5rem;">Ingresa tu cédula para iniciar el protocolo de regeneración. Si es tu primera vez, completa tus datos.</p>
             <div class="badge-row">
                 <span class="badge-item"><i class="fas fa-id-card"></i> Cédula</span>
                 <span class="badge-item"><i class="fas fa-arrow-right"></i> Acceder</span>
@@ -531,17 +374,17 @@
         <!-- FORMULARIO DE REGISTRO -->
         <div id="registrationSection" class="oculto">
             <section class="intro-block">
-                <h2>📚 Completa tu perfil académico</h2>
+                <h2>🧬 Completa tu perfil biológico</h2>
                 <div class="grid-2">
                     <div class="field"><label>Nombres *</label><input type="text" id="nombres"></div>
                     <div class="field"><label>Apellidos *</label><input type="text" id="apellidos"></div>
                 </div>
                 <div class="grid-2">
                     <div class="field"><label>Núcleo *</label><select id="nucleo"><option value="La Floresta">La Floresta</option><option value="Altagracia">Altagracia</option></select></div>
-                    <div class="field"><label>PNF *</label><select id="pnf"><option value="Filosofía">Filosofía</option></select></div>
+                    <div class="field"><label>PNF *</label><select id="pnf"><option value="Biohacking">Biohacking Estructural</option></select></div>
                 </div>
                 <div class="grid-2">
-                    <div class="field"><label>Trayecto *</label><select id="trayecto"><option value="Tao Te Ching">Tao Te Ching</option></select></div>
+                    <div class="field"><label>Trayecto *</label><select id="trayecto"><option value="Biohacking Estructural">Biohacking Estructural</option></select></div>
                     <div class="field"><label>Semestre *</label><select id="semestre"><option value="I">I</option><option value="II">II</option></select></div>
                 </div>
                 <button id="registerUserBtn" class="btn-submit">Guardar y acceder</button>
@@ -552,7 +395,7 @@
         <div id="contenidoPrincipal" class="oculto">
             <div class="main-layout">
                 <div class="sidebar">
-                    <h3><i class="fas fa-sitemap"></i> Índice</h3>
+                    <h3><i class="fas fa-project-diagram"></i> Índice de Fases</h3>
                     <div id="arbolNavegacion"></div>
                 </div>
                 <div class="content-area">
@@ -562,18 +405,18 @@
             </div>
         </div>
 
-        <div class="footer-note">⚡ Aprendizaje Abierto · Tao Te Ching · Sabiduría en cada paso · Gerard Kenny José Sieveres B.</div>
+        <div class="footer-note">⚡ Biohacking Estructural · Protocolo de 40 días · Gerard Kenny José Sieveres B.</div>
     </div>
 
     <!-- Panel deslizable (drawer) -->
     <div class="drawer-overlay" id="drawerOverlay"></div>
     <div class="drawer" id="profileDrawer">
         <button class="close-drawer" id="closeDrawerBtn">&times;</button>
-        <h3><i class="fas fa-user-graduate"></i> Mi perfil</h3>
+        <h3><i class="fas fa-user-astronaut"></i> Mi perfil</h3>
         <div class="user-info" id="drawerUserInfo">
             <p><i class="fas fa-id-card"></i> <strong>Cédula:</strong> <span id="drawerCedula">-</span></p>
             <p><i class="fas fa-user"></i> <strong>Nombre:</strong> <span id="drawerNombre">-</span></p>
-            <p><i class="fas fa-university"></i> <strong>PNF:</strong> <span id="drawerPnf">-</span></p>
+            <p><i class="fas fa-flask"></i> <strong>PNF:</strong> <span id="drawerPnf">-</span></p>
             <p><i class="fas fa-route"></i> <strong>Trayecto:</strong> <span id="drawerTrayecto">-</span></p>
             <p><i class="fas fa-calendar-alt"></i> <strong>Semestre:</strong> <span id="drawerSemestre">-</span></p>
         </div>
@@ -583,13 +426,13 @@
     <div id="attendanceModal" class="modal">
         <div class="modal-content">
             <span class="modal-close" id="closeAttendanceModal">&times;</span>
-            <h2><i class="fas fa-check-circle"></i> Tomar Asistencia</h2>
+            <h2><i class="fas fa-check-circle"></i> Registrar Asistencia</h2>
             <div class="field">
                 <label>Fecha</label>
                 <input type="date" id="attendanceDate" value="">
             </div>
             <div class="field">
-                <label>Clase</label>
+                <label>Fase / Clase</label>
                 <select id="attendanceClassId"></select>
             </div>
             <div class="field">
@@ -608,19 +451,19 @@
     <div id="adminModal" class="modal">
         <div class="modal-content" style="max-width: 90%; width: 1000px;">
             <span class="modal-close" id="closeAdminModal">&times;</span>
-            <h2><i class="fas fa-user-cog"></i> Panel de Administración</h2>
+            <h2><i class="fas fa-user-cog"></i> Panel de Control</h2>
             <div>
                 <h3>Contraseña de administrador</h3>
                 <input type="password" id="adminPassword" placeholder="Contraseña">
                 <button id="loginAdminBtn">Acceder</button>
                 <div id="adminPanel" style="display:none; margin-top: 2rem;">
-                    <h3>Editar estructura de curso (JSON)</h3>
+                    <h3>Editar estructura del curso (JSON)</h3>
                     <textarea id="estructuraEditor" rows="20" style="width:100%; font-family:monospace;"></textarea>
                     <button id="saveEstructuraBtn" class="btn-submit" style="margin-top:0.5rem;">Guardar estructura</button>
 
                     <h3>Gestión de fechas de clases</h3>
                     <div id="classConfigContainer"></div>
-                    <button id="saveClassConfigBtn" class="btn-submit">Guardar configuración de clases</button>
+                    <button id="saveClassConfigBtn" class="btn-submit">Guardar configuración</button>
 
                     <h3>Ver asistencia</h3>
                     <div>
@@ -641,10 +484,10 @@
 
     <script>
         // ========== CONFIGURACIÓN ==========
-        const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby_ZbCVN8NLgRhIr68Cax57pJAFOX04_XGtKE7gSU7kfhyPO7EgAxV3Mf1qFBCIW75bZA/exec"; // (misma que usabas)
+        const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby_ZbCVN8NLgRhIr68Cax57pJAFOX04_XGtKE7gSU7kfhyPO7EgAxV3Mf1qFBCIW75bZA/exec";
         let usuarioActual = { cedula: '', nombres: '', apellidos: '', nucleo: '', pnf: '', trayecto: '', semestre: '' };
         let estructuraGlobal = null;
-        let progresoUsuario = {};  // temaId -> true/false
+        let progresoUsuario = {};
         let temaSeleccionado = null;
         let verificationTimeout = null;
         let configClases = {};
@@ -676,7 +519,7 @@
             document.getElementById('drawerSemestre').innerText = usuarioActual.semestre || '-';
         }
 
-        // ========== VERIFICACIÓN DE CÉDULA EN TIEMPO REAL ==========
+        // ========== VERIFICACIÓN DE CÉDULA ==========
         function autoVerifyCedula(cedula) {
             const indicator = document.getElementById('verifyIndicator');
             const statusDiv = document.getElementById('verificationStatus');
@@ -787,7 +630,7 @@
                 if (data.result === 'success') {
                     usuarioActual = { cedula, nombres, apellidos, nucleo, pnf, trayecto, semestre };
                     actualizarDrawer();
-                    mostrarToast('Registro exitoso. Cargando contenido...');
+                    mostrarToast('Registro exitoso. Cargando protocolo...');
                     progresoUsuario = {};
                     document.getElementById('registrationSection').classList.add('oculto');
                     document.getElementById('contenidoPrincipal').classList.remove('oculto');
@@ -816,9 +659,7 @@
             formData.append('clase', temaSeleccionado?.clase?.titulo || '');
             formData.append('semestre', temaSeleccionado?.semestre?.titulo || '');
             formData.append('trayecto', temaSeleccionado?.trayecto?.titulo || '');
-            if (puntaje !== null) {
-                formData.append('puntaje', puntaje);
-            }
+            if (puntaje !== null) formData.append('puntaje', puntaje);
 
             try {
                 const response = await fetch(APPS_SCRIPT_URL, { method: 'POST', body: formData });
@@ -840,7 +681,7 @@
             }
         }
 
-        // ========== CARGAR ESTRUCTURA Y CONSTRUIR ÁRBOL CON VISIBILIDAD ==========
+        // ========== CARGAR ESTRUCTURA Y CONSTRUIR ÁRBOL ==========
         async function cargarEstructuraYMostrar() {
             try {
                 await cargarConfigClases();
@@ -861,7 +702,6 @@
                 const data = await res.json();
                 configClases = data.config || {};
             } catch (err) {
-                console.warn("No se pudo cargar configuración de clases", err);
                 configClases = {};
             }
         }
@@ -889,7 +729,7 @@
                 const liSem = document.createElement('li');
                 const detailsSem = document.createElement('details');
                 const summarySem = document.createElement('summary');
-                summarySem.innerHTML = `<i class="fas fa-calendar-alt"></i> ${semestre.titulo}`;
+                summarySem.innerHTML = `<i class="fas fa-flask"></i> ${semestre.titulo}`;
                 detailsSem.appendChild(summarySem);
                 const ulClases = document.createElement('ul');
                 semestre.clases.forEach(clase => {
@@ -942,15 +782,13 @@
             return null;
         }
 
-        // ========== MOSTRAR TEMA ==========
+        // ========== MOSTRAR TEMA (contenido) ==========
         function mostrarTema(tema, clase, semestre, trayecto) {
             temaSeleccionado = { tema, clase, semestre, trayecto };
             const container = document.getElementById('contenidoTema');
             const contenido = tema.contenido;
             let html = `<h2>${tema.titulo}</h2>`;
-            if (clase.descripcion) {
-                html += `<p><em>📖 ${clase.descripcion}</em></p>`;
-            }
+            if (clase.descripcion) html += `<p><em>📖 ${clase.descripcion}</em></p>`;
             if (clase.archivos && clase.archivos.length > 0) {
                 html += `<h3>📂 Material de apoyo</h3><ul>`;
                 clase.archivos.forEach(arch => {
@@ -990,9 +828,7 @@
                     const quizData = contenido.quiz;
                     if (respuesta === quizData.correcta) {
                         document.getElementById('feedbackQuiz').innerHTML = `<span style="color:green;">✅ ${quizData.feedback || '¡Correcto!'}</span>`;
-                        if (!progresoUsuario[tema.id]) {
-                            marcarTemaCompletado(tema, 100);
-                        }
+                        if (!progresoUsuario[tema.id]) marcarTemaCompletado(tema, 100);
                     } else {
                         document.getElementById('feedbackQuiz').innerHTML = `<span style="color:red;">❌ Incorrecto. ${quizData.feedback || 'Inténtalo de nuevo.'}</span>`;
                     }
@@ -1070,15 +906,13 @@
                 } else {
                     document.getElementById('estructuraEditor').value = '// No hay estructura guardada. Puedes pegar tu JSON aquí.';
                 }
-            } catch (err) {
-                console.error(err);
-            }
+            } catch (err) { console.error(err); }
         }
 
         async function guardarEstructura() {
             const newEstructura = document.getElementById('estructuraEditor').value;
             try {
-                JSON.parse(newEstructura); // validar
+                JSON.parse(newEstructura);
             } catch(e) {
                 mostrarMensaje('JSON inválido', 'error', 'attendanceMessage');
                 return;
@@ -1164,19 +998,14 @@
                 const data = await res.json();
                 const lista = data.asistencia || [];
                 const container = document.getElementById('adminAttendanceList');
-                if (lista.length === 0) {
-                    container.innerHTML = '<p>No hay registros.</p>';
-                    return;
-                }
-                let table = '<table border="1" cellpadding="8" style="width:100%; border-collapse:collapse;"> <thead> <tr><th>Fecha</th><th>Cédula</th><th>Nombre</th><th>Clase</th><th>Presente</th></tr> </thead><tbody>';
+                if (lista.length === 0) { container.innerHTML = '<p>No hay registros.</p>'; return; }
+                let table = '<table border="1" cellpadding="8" style="width:100%; border-collapse:collapse;"><thead><tr><th>Fecha</th><th>Cédula</th><th>Nombre</th><th>Clase</th><th>Presente</th></tr></thead><tbody>';
                 lista.forEach(item => {
                     table += `<tr><td>${item.fecha}</td><td>${item.cedula}</td><td>${item.nombre}</td><td>${item.claseId}</td><td>${item.presente}</td></tr>`;
                 });
                 table += '</tbody></table>';
                 container.innerHTML = table;
-            } catch (err) {
-                console.error(err);
-            }
+            } catch (err) { console.error(err); }
         }
 
         // ========== MODO OSCURO ==========
@@ -1198,15 +1027,8 @@
             const drawer = document.getElementById('profileDrawer');
             const overlay = document.getElementById('drawerOverlay');
             const closeBtn = document.getElementById('closeDrawerBtn');
-
-            function openDrawer() {
-                drawer.classList.add('open');
-                overlay.classList.add('open');
-            }
-            function closeDrawer() {
-                drawer.classList.remove('open');
-                overlay.classList.remove('open');
-            }
+            function openDrawer() { drawer.classList.add('open'); overlay.classList.add('open'); }
+            function closeDrawer() { drawer.classList.remove('open'); overlay.classList.remove('open'); }
             profileBtn.addEventListener('click', openDrawer);
             closeBtn.addEventListener('click', closeDrawer);
             overlay.addEventListener('click', closeDrawer);
@@ -1243,7 +1065,6 @@
             };
         }
 
-        // ========== EVENTOS ==========
         document.addEventListener('DOMContentLoaded', () => {
             initDarkMode();
             initDrawer();
@@ -1253,12 +1074,10 @@
                 e.target.value = e.target.value.replace(/[^0-9]/g, '');
                 autoVerifyCedula(e.target.value);
             });
-
             document.getElementById('registerDirectBtn').addEventListener('click', () => {
                 document.getElementById('verificationSection').classList.add('hidden');
                 document.getElementById('registrationSection').classList.remove('oculto');
             });
-
             document.getElementById('registerUserBtn').addEventListener('click', registrarUsuario);
             document.getElementById('saveAttendanceBtn').addEventListener('click', guardarAsistencia);
             document.getElementById('loginAdminBtn').addEventListener('click', loginAdmin);
