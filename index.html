@@ -165,11 +165,18 @@
             border: 1px solid rgba(0,255,157,0.4);
         }
         .main-layout {
-            display: flex;
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        .sidebar {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap; /* Permite que en móvil se apilen, pero no en escritorio */
+}
+
+@media (max-width: 800px) {
+    .main-layout {
+        flex-direction: column; /* En móvil, sidebar arriba y contenido abajo */
+    }
+}
+.sidebar {
             width: 300px;
             background: rgba(10, 15, 31, 0.9);
             border-radius: 2rem;
