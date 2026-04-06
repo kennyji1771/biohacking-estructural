@@ -1,0 +1,1387 @@
+{
+  "pnf": "Biohacking Estructural",
+  "trayectos": [
+    {
+      "id": "biohacking",
+      "titulo": "Biohacking Estructural: Arquitectura de la Resurrección",
+      "nivel": "Ingeniería Biológica",
+      "duracion": "40 Días",
+      "semestres": [
+        {
+          "id": "fase1",
+          "titulo": "Fase I: Colapso del Combustible Externo (Días 1–5)",
+          "filosofia": "Apagado del sistema heredado. Transición energética de glucosa a cetonas.",
+          "clases": [
+            {
+              "id": "fase1_dias",
+              "titulo": "Días 1 a 5",
+              "descripcion": "Caída de insulina, activación de AMPK, agotamiento de glucógeno, cetosis profunda, autofagia máxima, supresión del apetito.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia1",
+                  "titulo": "Día 1: Caída de insulina. Activación de AMPK",
+                  "contenido": {
+                    "texto": "**Biológico:** Caída de insulina. Activación de AMPK.\n\n**Analógico:** Desconexión del cargador externo. Modo ahorro de energía.\n\n**Espiritual:** La materia deja de ser el combustible principal.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Inicio del ayuno. Hidratación con electrolitos. Evitar estímulos externos."
+                  ],
+                  "consideraciones_extra": [
+                    "El tema del ayuno llena de expectativas a la gente. Cuando le he planteado a algunos de mis pacientes la posibilidad y la necesidad de emprender un ayuno, siempre se preguntan algo como esto: ¿Me puedo curar pasando hambre? ¿Me pondré peor? ¿Me moriré en el intento? Y miles de preguntas parecidas más. Aun cuando el ayuno es algo milenario y los animales salvajes instintivamente lo practican cuando se enferman, siempre tendremos dudas. Hasta que algún día vivamos la experiencia. Quiero referirme ..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "El tema del ayuno llena de expectativas a la gente. Cuando le he planteado a algunos de mis pacientes la posibilidad y la necesidad de emprender un ayuno, siempre se preguntan algo como esto: ¿Me pued...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia2",
+                  "titulo": "Día 2: Agotamiento de glucógeno. Inicio de gluconeogénesis",
+                  "contenido": {
+                    "texto": "**Biológico:** Agotamiento de glucógeno. Inicio de gluconeogénesis.\n\n**Analógico:** Vaciamiento de caché. Reutilización de procesos inactivos.\n\n**Espiritual:** Las molestias son el ruido de archivos temporales siendo eliminados.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de hambre pasajera. Mantener hidratación."
+                  ],
+                  "consideraciones_extra": [
+                    "Una vez expuestos estos tres asuntos, me referiré a una obra extraordinaria, escrita a comienzos del siglo 20 por un ciudadano ruso, quien vivió gran parte de su vida en Serbia, y quien fue un personaje muy famoso en su época, tanto por sus curaciones como por las teorías que esbozó para explicar sus observaciones. Me refiero a Alexi Suvorin. Su libro La Curación por El Ayuno, sirve aun de motivación y referencia para las personas que anhelan encontrar su salud, la cual, generalmente, han esta..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Una vez expuestos estos tres asuntos, me referiré a una obra extraordinaria, escrita a comienzos del siglo 20 por un ciudadano ruso, quien vivió gran parte de su vida en Serbia, y quien fue un persona...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia3",
+                  "titulo": "Día 3: Cetosis profunda. Reducción de IGF‑1",
+                  "contenido": {
+                    "texto": "**Biológico:** Cetosis profunda. Reducción de IGF‑1.\n\n**Analógico:** Cambio de kernel. Reinicio de procesos.\n\n**Espiritual:** La mente abandona su matriz de dependencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posible dolor de cabeza por adaptación cetogénica. Aumentar ingesta de sales."
+                  ],
+                  "consideraciones_extra": [
+                    "El Ayuno en La Historia Los animales salvajes usan el ayuno, bien voluntariamente o forzados por la escasez. Siendo un muchacho, vi un documental de Walt Disney, donde se veía a un lobo, el cual fue herido en una pata por un cazador, en animal se refugió en una cueva por donde pasaba una corriente de agua. Sumergió su pata en el barro de la corriente y no se movió de allí en varios días. Su única comida y bebida fue el agua que pasaba delante de él, y se estuvo allí, vigilado por cámaras ocultas..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "El Ayuno en La Historia Los animales salvajes usan el ayuno, bien voluntariamente o forzados por la escasez. Siendo un muchacho, vi un documental de Walt Disney, donde se veía a un lobo, el cual fue h...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia4",
+                  "titulo": "Día 4: Autofagia máxima. Reciclaje de proteínas mal plegadas",
+                  "contenido": {
+                    "texto": "**Biológico:** Autofagia máxima. Reciclaje de proteínas mal plegadas.\n\n**Analógico:** Antivirus en modo kernel. Eliminación de sectores corruptos.\n\n**Espiritual:** El cuerpo literalmente se come su imperfección.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Puede sentirse fatiga. Evitar ejercicio intenso."
+                  ],
+                  "consideraciones_extra": [
+                    "El día más sagrado y más solemne del año para los judíos es el día del Yom Kippur o “día del arrepentimiento”, considerado el día más santo. Su tema central es la expiación y la reconciliación. Comer, beber, bañarse, y tener relaciones sexuales está prohibido ese día. Los judíos instituyeron otros cuatro días de ayuno: el ayuno en el cuarto mes (el día noveno de Tammuz, cuando las murallas de Jerusalén fueron tomadas por los babilonios y destruido su templo); el ayuno del quinto mes (cuando el T..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "El día más sagrado y más solemne del año para los judíos es el día del Yom Kippur o “día del arrepentimiento”, considerado el día más santo. Su tema central es la expiación y la reconciliación. Comer,...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia5",
+                  "titulo": "Día 5: Supresión del apetito. Apoptosis de células inmunes viejas",
+                  "contenido": {
+                    "texto": "**Biológico:** Supresión del apetito. Apoptosis de células inmunes viejas.\n\n**Analógico:** Nuevo runtime estable. Desactivación de ruido de fondo.\n\n**Espiritual:** El sistema ya no demanda materia, demanda coherencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "El apetito desaparece. Comienza la verdadera limpieza."
+                  ],
+                  "consideraciones_extra": [
+                    "El Ayuno entre los primeros cristianos Los primeros cristianos no sólo establecieron el ayuno, como costumbre frecuente entre ellos, también exigían la abstención permanente de toda clase de comida de procedencia animal. En la Edad Media los franciscanos fueron los campeones en eso de respetar la vida animal. Consideraban a todos los animales como sus hermanos y amigos y, por lo tanto se abstenían de comerse a sus amigos. El ayuno era muy frecuente entre ellos. Aun hoy día, algunas órdenes rel..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "El Ayuno entre los primeros cristianos Los primeros cristianos no sólo establecieron el ayuno, como costumbre frecuente entre ellos, también exigían la abstención permanente de toda clase de comida de...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fase2",
+          "titulo": "Fase II: Purga de Datos Biológicos (Días 6–12)",
+          "filosofia": "Reinicio del sistema inmune. Eliminación de archivos corruptos.",
+          "clases": [
+            {
+              "id": "fase2_dias",
+              "titulo": "Días 6 a 12",
+              "descripcion": "Inhibición de mTOR, reposo intestinal, activación de FOXO, aumento de BDNF, movilización de toxinas, proteínas de choque térmico, adaptación a cetonas.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia6",
+                  "titulo": "Día 6: Inhibición de mTOR. Reducción de citoquinas inflamatorias",
+                  "contenido": {
+                    "texto": "**Biológico:** Inhibición de mTOR. Reducción de citoquinas inflamatorias.\n\n**Analógico:** Detención de procesos en segundo plano.\n\n**Espiritual:** Dejar de crecer hacia afuera para crecer hacia adentro.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "La inflamación disminuye. Sensación de ligereza."
+                  ],
+                  "consideraciones_extra": [
+                    "El Ayuno en El Islam Entre los musulmanes, durante el mes de Ramadán, todos los musulmanes tienen la obligación de ayunar durante 19 días. Este particular método consistía, originalmente, en un ayuno de veinticuatro horas durante esos 19 días. Posteriormente se modificó la práctica del ayuno, permitiendo que la gente consumiera algunas frutas en las noches, entre el ocaso y el amanecer. Absteniéndose de comida y bebida durante las horas diurnas. Con el tiempo, esta práctica terminó convirtiéndos..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "El Ayuno en El Islam Entre los musulmanes, durante el mes de Ramadán, todos los musulmanes tienen la obligación de ayunar durante 19 días. Este particular método consistía, originalmente, en un ayuno ...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia7",
+                  "titulo": "Día 7: Reposo intestinal. Regeneración de barrera epitelial",
+                  "contenido": {
+                    "texto": "**Biológico:** Reposo intestinal. Regeneración de barrera epitelial.\n\n**Analógico:** Formateo de la unidad de entrada/salida.\n\n**Espiritual:** El templo de la asimilación se vacía para volverse transparente.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posible sensación de limpieza profunda. Hidratación constante."
+                  ],
+                  "consideraciones_extra": [
+                    "En los años 60 del siglo XX, mientras hacía mis estudios de psicología, hacíamos experimentos con ratas y llegamos a comprobar que el hambre era una motivación muy poderosa para aprender. Una rata saciada no se interesaba mucho en aprender un laberinto, para encontrar comida, mientras que otra con un día de ayuno lo aprendía fácilmente y mucho más rápido lo hacía aquella que tenía cinco días sin comer. También algunos años antes de esa fecha había comprobado que cuando me presentaba a un examen ..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "En los años 60 del siglo XX, mientras hacía mis estudios de psicología, hacíamos experimentos con ratas y llegamos a comprobar que el hambre era una motivación muy poderosa para aprender. Una rata sac...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia8",
+                  "titulo": "Día 8: Activación de FOXO. Silenciamiento de genes de proliferación",
+                  "contenido": {
+                    "texto": "**Biológico:** Activación de FOXO. Silenciamiento de genes de proliferación.\n\n**Analógico:** Desactivación de scripts heredados.\n\n**Espiritual:** Liberación de patrones familiares grabados en la biología.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Pueden surgir recuerdos o emociones pasadas. Observar sin juicio."
+                  ],
+                  "consideraciones_extra": [
+                    "De acuerdo a estas cifras, aportadas por Cahill y Owen y otros fisiólogos, un humano con estas características, puede vivir 74 días. Algunos órganos, como el cerebro, no pueden utilizar las grasas como combustible directamente y requieren que el organismo convierta proteínas para sintetizar glucosa. Esta persona hipotética, dispone alrededor de 300 g de glucosa, que rinde 4 cal/g o sea 1.200 Kcal., las cuales se agotan en las primeras 24 horas. Nuestro sujeto dispone de 10 a 12 Kg de grasa, la c..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "De acuerdo a estas cifras, aportadas por Cahill y Owen y otros fisiólogos, un humano con estas características, puede vivir 74 días. Algunos órganos, como el cerebro, no pueden utilizar las grasas com...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia9",
+                  "titulo": "Día 9: Aumento de BDNF",
+                  "contenido": {
+                    "texto": "**Biológico:** Aumento de BDNF (Factor Neurotrófico Derivado del Cerebro).\n\n**Analógico:** Reparación de conexiones de red.\n\n**Espiritual:** Nuevas rutas de percepción.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Mayor claridad mental, creatividad."
+                  ],
+                  "consideraciones_extra": [
+                    "Primera Etapa Según la alopatía, en las primeras de cambio, el organismo no pierde peso, pero entra en hipoglicemia una especie de depresión física, a la que llaman hipoglicemia (nivel bajo de azúcar en la sangre). Los síntomas de hipoglicemia son: agotamiento físico y debilidad (astenia), mareos, sudoración fría, etc. Todo esto ocurrirá, supuestamente, apenas la persona tiene unas horas de ayuno. Por nuestra parte hemos observado que si bien se sufre es porque se despierta el hambre, pero n..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Primera Etapa Según la alopatía, en las primeras de cambio, el organismo no pierde peso, pero entra en hipoglicemia una especie de depresión física, a la que llaman hipoglicemia (nivel bajo de azú...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia10",
+                  "titulo": "Día 10: Movilización de toxinas liposolubles",
+                  "contenido": {
+                    "texto": "**Biológico:** Movilización de toxinas liposolubles.\n\n**Analógico:** Desfragmentación profunda del disco duro.\n\n**Espiritual:** Emociones almacenadas en el tejido graso comienzan a liberarse.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posibles cambios de humor. Acompañamiento emocional."
+                  ],
+                  "consideraciones_extra": [
+                    "Segunda Etapa Superadas las primeras 24 a 36 horas, cuando ya están 100% agotadas las reservas de glucosa, comienza la segunda etapa, que se caracteriza por el consumo de la grasa y proteínas. La misma hipoglicemia desencadena los mecanismos que dirigirán el consumo de la grasa en esta 2ª fase del proceso y actuará sobre hipotálamo, terminaciones nerviosas, suprarrenales y páncreas. En esta segunda etapa. La mayoría de las células se adaptan a la -oxidación, es decir, al consumo directo de los ..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Segunda Etapa Superadas las primeras 24 a 36 horas, cuando ya están 100% agotadas las reservas de glucosa, comienza la segunda etapa, que se caracteriza por el consumo de la grasa y proteínas. La mism...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia11",
+                  "titulo": "Día 11: Aumento de proteínas de choque térmico",
+                  "contenido": {
+                    "texto": "**Biológico:** Aumento de proteínas de choque térmico (HSP).\n\n**Analógico:** Compilación de nuevas bibliotecas de resistencia.\n\n**Espiritual:** La fragilidad se transforma en resiliencia estructural.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "El cuerpo se siente más fuerte, a pesar del ayuno."
+                  ],
+                  "consideraciones_extra": [
+                    "• L-Arginina, para la síntesis de óxido nítrico, (ON), el verdadero anticoagulante natural del organismo; • Cobre, vitamina C y bioflavonoides de las cáscaras de frutas cítricas. Estos nutrientes ayudarán a regenerar la elastina de las arterias, para que recuperen su elasticidad. • También la tiamina o vitamina B1 será un gran aliado para regularizar el ritmo cardíaco, • Coenzima Q 10, • Vitamina E, • Ácidos grasos omega 3 y 6 también serán necesarios, pero directamente de alimentos crudos que l..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "• L-Arginina, para la síntesis de óxido nítrico, (ON), el verdadero anticoagulante natural del organismo; • Cobre, vitamina C y bioflavonoides de las cáscaras de frutas cítricas. Estos nutrientes ayud...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia12",
+                  "titulo": "Día 12: Máxima eficiencia mitocondrial. Adaptación completa a cetonas",
+                  "contenido": {
+                    "texto": "**Biológico:** Máxima eficiencia mitocondrial. Adaptación completa a cetonas.\n\n**Analógico:** Nuevo kernel funcionando en lenguaje nativo.\n\n**Espiritual:** El cuerpo ya no extraña la densidad. Opera en frecuencia limpia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Energía estable. Fin de la primera gran fase de adaptación."
+                  ],
+                  "consideraciones_extra": [
+                    "El programa nutricional preparativo para el ayuno que hemos diseñado, además del propósito fundamental, que es fortalecer el corazón y las arterias con los nutrientes de los cuales ha carecido por años; tiene un segundo propósito: el de descalcificar estructuras tales como válvulas cardíacas, arterias, venas y glándulas del organismo del enfermo, las cuales se encuentran invadidas por cristales de calcio. Como es de suponer, este programa alimentario no incluye leche ni quesos, pues son los resp..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "El programa nutricional preparativo para el ayuno que hemos diseñado, además del propósito fundamental, que es fortalecer el corazón y las arterias con los nutrientes de los cuales ha carecido por año...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fase3",
+          "titulo": "Fase III: Estructuración del Hardware Líquido (Días 13–21)",
+          "filosofia": "Reconfiguración del agua corporal. Explosión de células madre.",
+          "clases": [
+            {
+              "id": "fase3_dias",
+              "titulo": "Días 13 a 21",
+              "descripcion": "Reducción de líquido extracelular, estabilización de VFC, cambios en metilación, señalización de células madre, reducción hepática, aumento de mielinización, apoptosis masiva, estroma de médula ósea listo, explosión de células madre.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia13",
+                  "titulo": "Día 13: Reducción de líquido extracelular. Homeostasis por ADH",
+                  "contenido": {
+                    "texto": "**Biológico:** Reducción de líquido extracelular. Homeostasis por ADH.\n\n**Analógico:** Optimización del sistema de refrigeración.\n\n**Espiritual:** El agua corporal comienza a recordar su geometría original.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Beber agua con sales minerales. No forzar la hidratación."
+                  ],
+                  "consideraciones_extra": [
+                    "¿En qué se utiliza la proteína de los ateromas? Una vez que se han agotado las reservas de glucosa del organismo, los macrófagos, células muy importantes de la defensa, comienzan a destruir los ateromas y los transportan hasta el hígado con sus Apo-Lp (lipoproteínas Apo), las cuales son similares, pero no iguales, a las lipoproteínas de baja densidad, LDL, donde una parte se convertirá en albúmina para la sangre y otra en cuerpos cetónicos y glucosa para el cerebro. Pero los ateromas que están s..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "¿En qué se utiliza la proteína de los ateromas? Una vez que se han agotado las reservas de glucosa del organismo, los macrófagos, células muy importantes de la defensa, comienzan a destruir los aterom...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia14",
+                  "titulo": "Día 14: Estabilización de VFC. Dominio parasimpático",
+                  "contenido": {
+                    "texto": "**Biológico:** Estabilización de VFC (Variabilidad de la Frecuencia Cardíaca). Dominio parasimpático.\n\n**Analógico:** Sincronización del reloj del procesador central.\n\n**Espiritual:** El corazón deja de reaccionar y comienza a dirigir.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de paz interior. Meditar para reforzar la coherencia."
+                  ],
+                  "consideraciones_extra": [
+                    "– Lo mínimo necesario. Si una persona se propone hacer un ayuno prolongado cercano a 40 días, lo ideal es que se aleje de su vida rutinaria y busque un lugar tranquilo donde no reciba visitas, ni llamadas telefónicas frecuentes, no haya televisión, radio, computadoras o internet; donde no se entere de lo que pasa en el mundo y pueda dedicarse a la lectura, paseos suaves, oración, meditación y pensamientos optimistas."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "– Lo mínimo necesario. Si una persona se propone hacer un ayuno prolongado cercano a 40 días, lo ideal es que se aleje de su vida rutinaria y busque un lugar tranquilo donde no reciba visitas, ni llam...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia15",
+                  "titulo": "Día 15: Cambios en metilación del ADN. Activación de sirtuinas",
+                  "contenido": {
+                    "texto": "**Biológico:** Cambios en metilación del ADN. Activación de sirtuinas.\n\n**Analógico:** Edición de código fuente epigenético.\n\n**Espiritual:** Se despiertan potenciales dormidos del linaje.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Momento ideal para intenciones de regeneración profunda."
+                  ],
+                  "consideraciones_extra": [
+                    "Alexi Suvorin a pesar de haber escrito su libro hace cerca o más de noventa años describe con detalles cómo la lengua es un medidor del proceso de desintoxicación del cuerpo. Se puede entrar en una tercera etapa del ayuno, mucho más allá de los cuarenta días tradicionalmente recomendados cuando el organismo tiene que echar mano de las proteínas musculares para seguir manteniendo la proteína de la sangre (la albúmina) y los cuerpos cetónicos. Afortunadamente, al quedar limpio y regenerado hasta d..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Alexi Suvorin a pesar de haber escrito su libro hace cerca o más de noventa años describe con detalles cómo la lengua es un medidor del proceso de desintoxicación del cuerpo. Se puede entrar en una te...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia16",
+                  "titulo": "Día 16: Señalización para movilizar células madre",
+                  "contenido": {
+                    "texto": "**Biológico:** Señalización para movilizar células madre.\n\n**Analógico:** Desbloqueo del almacén de componentes originales.\n\n**Espiritual:** El cuerpo tiene los planos originales; ahora los recupera.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de vitalidad interna. Evitar toxinas ambientales."
+                  ],
+                  "consideraciones_extra": [
+                    "La respuesta es muy sencilla: hoy en día la medicina ha devenido en un negocio y a todo enfermo hay que ponerlo a gastar mucho dinero, primero en diagnósticos y segundo en tratamientos para controlar la enfermedad. Eso de evitar enfermarse comiendo sano, con comidas crudas y orgánicas, no le cuadra a la industria farmacéutica. Ella necesita gente que goce comiendo buenos filetes de carnes, pollo, mayonesa, jamones (momias sabrosas) bebidas gaseosas en lugar de jugos de fruta, que fumen y consuma..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "La respuesta es muy sencilla: hoy en día la medicina ha devenido en un negocio y a todo enfermo hay que ponerlo a gastar mucho dinero, primero en diagnósticos y segundo en tratamientos para controlar ...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia17",
+                  "titulo": "Día 17: Reducción hepática. Eliminación de hepatocitos dañados",
+                  "contenido": {
+                    "texto": "**Biológico:** Reducción hepática. Eliminación de hepatocitos dañados.\n\n**Analógico:** Servidor principal se reduce para luego regenerarse.\n\n**Espiritual:** El laboratorio alquímico interno se limpia para nuevas síntesis.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posible sensación de desintoxicación hepática. Reposo."
+                  ],
+                  "consideraciones_extra": [
+                    "La gente cree en su industria farmacéutica, porque las drogas que utiliza funcionan. Las drogas alcanzan el objetivo para el cual fueron diseñadas y eso los entusiasma, El público se ilusiona pensando que la ciencia se está devanando los sesos para encontrar la solución a su problema. He tenido pacientes que no les importa llegar a padecer o morir de un infarto, con tal de usar la pastillita que les va a levantar el ánimo. ¡Cuántos caen a diario en la trampa de las drogas de disimular gripe ..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "La gente cree en su industria farmacéutica, porque las drogas que utiliza funcionan. Las drogas alcanzan el objetivo para el cual fueron diseñadas y eso los entusiasma, El público se ilusiona pensando...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia18",
+                  "titulo": "Día 18: Aumento de mielinización",
+                  "contenido": {
+                    "texto": "**Biológico:** Aumento de mielinización.\n\n**Analógico:** Recubrimiento de cables de transmisión.\n\n**Espiritual:** El pensamiento viaja sin interferencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Claridad mental extrema. Buena capacidad de aprendizaje."
+                  ],
+                  "consideraciones_extra": [
+                    "El célebre fisiólogo ruso, profesor Iván Pavlov, en quien el mundo venera ahora al sucesor indiscutible del gran Pasteur al frente del progreso de la fisiología, al oír en una reunión pública ponderar sus obras y descubrimien¬tos, declaró: «Pero, queridos compatriotas, yo significo aquí menos de lo que ustedes afirman. Ha llegado a mis manos un pequeño hecho de la existencia del organismo viviente; un pequeño hecho, nada más. ¡Todo el resto se hizo solo!». A mis manos también vino a parar «un pe..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "El célebre fisiólogo ruso, profesor Iván Pavlov, en quien el mundo venera ahora al sucesor indiscutible del gran Pasteur al frente del progreso de la fisiología, al oír en una reunión pública ponderar...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia19",
+                  "titulo": "Día 19: Apoptosis masiva de células senescentes",
+                  "contenido": {
+                    "texto": "**Biológico:** Apoptosis masiva de células senescentes.\n\n**Analógico:** Último barrido de hardware obsoleto.\n\n**Espiritual:** Se libera la energía retenida en estructuras muertas.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Puede sentirse agotamiento. Es el último gran esfuerzo antes de la regeneración."
+                  ],
+                  "consideraciones_extra": [
+                    "Ayuné por primera vez en mi vida hace catorce años al escribir el libro El Nuevo Hombre, en el que trataba sobre los diversos sistemas de alimentación. Había leído entonces en el libro de Metchnikoff que, ayunando voluntariamente, el hambre se siente sólo durante las primeras veinte horas. A fin de averiguarlo, me puse a ayunar. Para sorpresa mía, las palabras de Metchnikoff quedaron, en mi caso, compro¬badas. Después prolongué el ayuno diez días seguidos y a continuación repetí el experimento v..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Ayuné por primera vez en mi vida hace catorce años al escribir el libro El Nuevo Hombre, en el que trataba sobre los diversos sistemas de alimentación. Había leído entonces en el libro de Metchnikoff ...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia20",
+                  "titulo": "Día 20: Estroma de médula ósea listo",
+                  "contenido": {
+                    "texto": "**Biológico:** Estroma de médula ósea listo.\n\n**Analógico:** Placa base vacía preparada para nuevos componentes.\n\n**Espiritual:** Silencio anterior a la creación.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Descanso profundo. El cuerpo se prepara para el renacimiento."
+                  ],
+                  "consideraciones_extra": [
+                    "Por los hechos que he observado durante esos ayunos he comprobado que el organismo humano no tiene un solo camino general para su saneamiento, a través de los intestinos, sino dos, a saber: el primero para cuando la alimentación del organismo se efectúa por el estómago, y este camino (a través de los intestinos) conduce de arriba abajo; y el segundo para el tiempo de ayuno, durante el cual el organismo no recibe nada del lado del estómago y se alimenta de sus propias provisiones, y este camino c..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Por los hechos que he observado durante esos ayunos he comprobado que el organismo humano no tiene un solo camino general para su saneamiento, a través de los intestinos, sino dos, a saber: el primero...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia21",
+                  "titulo": "Día 21: Explosión de células madre hematopoyéticas. Reconstrucción del sistema inmune virgen",
+                  "contenido": {
+                    "texto": "**Biológico:** Explosión de células madre hematopoyéticas. Reconstrucción del sistema inmune virgen.\n\n**Analógico:** Formateo completo del disco duro. Instalación de sistema operativo limpio.\n\n**Espiritual:** Nacimiento biológico desde la nada. Se habita un cuerpo nuevo mientras se sigue en el mismo vehículo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "⚠️ **Punto crítico.** Reposo absoluto. Solo agua con sales. No interrumpir con alimentos. Posible fatiga extrema seguida de oleada de energía limpia."
+                  ],
+                  "consideraciones_extra": [
+                    "Durante ese ayuno comprobé que un ayuno prolongado y completo es, en efecto, un proceso determinado, con fases determinadas que se suceden en un orden determinado. En este proceso, transcurridos los primeros treinta días, a mediados de la quinta semana, aparecen indefectiblemente, en forma concéntrica, sobre la lengua hasta entonces blanca, manchas amarillas y luego pardas, y entre unas cinco y nueve días más tarde la lengua queda completa¬mente limpia, tornándose en toda su extensión roja. Acto..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Durante ese ayuno comprobé que un ayuno prolongado y completo es, en efecto, un proceso determinado, con fases determinadas que se suceden en un orden determinado. En este proceso, transcurridos los p...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fase4",
+          "titulo": "Fase IV: Overclocking Neuronal (Días 22–32)",
+          "filosofia": "Sincronización en ondas Gamma. Optimización de la red de procesamiento.",
+          "clases": [
+            {
+              "id": "fase4_dias",
+              "titulo": "Días 22 a 32",
+              "descripcion": "Migración de células madre, producción de nuevos cardiomiocitos, reparación de mielina, ondas cerebrales gamma, regeneración de colágeno, reset del eje HPA, mitofagia, neurogénesis, optimización de canales iónicos, reorganización de fascia, coherencia del campo magnético cardíaco.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia22",
+                  "titulo": "Día 22: Migración de células madre a tejidos",
+                  "contenido": {
+                    "texto": "**Biológico:** Migración de células madre a tejidos.\n\n**Analógico:** Instalación de nuevos módulos de hardware.\n\n**Espiritual:** La vida nueva reemplaza a la vieja sin resistencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de calidez en diferentes áreas del cuerpo. Energía creciente."
+                  ],
+                  "consideraciones_extra": [
+                    "Días 32° - 33°: En medio de la lengua, sobre el color amarillo, aparece una mancha parda que tira a marrón."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Días 32° - 33°: En medio de la lengua, sobre el color amarillo, aparece una mancha parda que tira a marrón....",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia23",
+                  "titulo": "Día 23: Producción de nuevos cardiomiocitos",
+                  "contenido": {
+                    "texto": "**Biológico:** Producción de nuevos cardiomiocitos (células del corazón).\n\n**Analógico:** Reemplazo del procesador central por unidad de última generación.\n\n**Espiritual:** El centro emocional late con un ritmo no contaminado.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Posible sensación de apertura en el pecho. Gratitud."
+                  ],
+                  "consideraciones_extra": [
+                    "Días 34° - 35°: La mancha parda va creciendo. Los bordes de la lengua empiezan a despejarse del trasudor blanco, tornándose rojos. La mancha amarilla se reduce."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Días 34° - 35°: La mancha parda va creciendo. Los bordes de la lengua empiezan a despejarse del trasudor blanco, tornándose rojos. La mancha amarilla se reduce....",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia24",
+                  "titulo": "Día 24: Reparación de mielina en SNC",
+                  "contenido": {
+                    "texto": "**Biológico:** Reparación de mielina en Sistema Nervioso Central.\n\n**Analógico:** Optimización de buses de datos.\n\n**Espiritual:** Claridad instantánea. El pensamiento se vuelve percepción directa.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Mayor capacidad de concentración. Posibles insights repentinos."
+                  ],
+                  "consideraciones_extra": [
+                    "Días 38° - 39°: Casi toda la lengua roja. En el tercio superior de la misma se nota una pequeña mancha circular, muy níti¬damente contorneada, de color amarillo-pardo con una punta en la parte delantera parecida al pico de un jarro. Uno se da cuenta de que no se trata de una mancha, sino de la salida a la superficie de la lengua de todo un haz de chorros que llevan desde las profundidades del orga-nismo hacia fuera los residuos de la combustión. Es la desembocadura de ese torrente y su corte tra..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Días 38° - 39°: Casi toda la lengua roja. En el tercio superior de la misma se nota una pequeña mancha circular, muy níti¬damente contorneada, de color amarillo-pardo con una punta en la parte delante...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia25",
+                  "titulo": "Día 25: Ondas cerebrales gamma (30–100 Hz)",
+                  "contenido": {
+                    "texto": "**Biológico:** Ondas cerebrales gamma (30–100 Hz).\n\n**Analógico:** Sincronización del reloj del sistema a alta frecuencia.\n\n**Espiritual:** Estados unitarios. Percepción expandida.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Meditación profunda. Pueden aparecer experiencias de unidad."
+                  ],
+                  "consideraciones_extra": [
+                    "Día 40°: La mancha parda desaparece. La cola del torrente ha sido arrojada fuera. La lengua está completamente limpia. Por primera vez después de treinta y nueve días apare¬ce el apetito. (Conmigo no ocurrió eso, porque no espe¬ré algunas horas más hasta la purificación completa de la lengua.)"
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Día 40°: La mancha parda desaparece. La cola del torrente ha sido arrojada fuera. La lengua está completamente limpia. Por primera vez después de treinta y nueve días apare¬ce el apetito. (Conmigo no ...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia26",
+                  "titulo": "Día 26: Regeneración de colágeno y elastina",
+                  "contenido": {
+                    "texto": "**Biológico:** Regeneración de colágeno y elastina.\n\n**Analógico:** Reemplazo de la carcasa externa.\n\n**Espiritual:** El cuerpo se vuelve transparente a la luz que lo habita.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "La piel mejora su textura. Sensación de ligereza."
+                  ],
+                  "consideraciones_extra": [
+                    "Ese es el curso normal de los fenómenos en la lengua; a veces se producen algunos desvíos. Sin embargo, siem¬pre se observa lo principal: la disposición concéntrica de las manchas amarillas y pardas, ocupando estas últimas el centro en la parte profunda de la lengua, en la zona de los montículos papillæ circumvallatæ. Esa concentricidad sólo halla su explicación en que la superficie de la lengua en ese momento representa, en efecto, el corte transver¬sal del chorro redondo de los excrementos que..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Ese es el curso normal de los fenómenos en la lengua; a veces se producen algunos desvíos. Sin embargo, siem¬pre se observa lo principal: la disposición concéntrica de las manchas amarillas y pardas, ...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia27",
+                  "titulo": "Día 27: Reset del eje HPA. Normalización de cortisol",
+                  "contenido": {
+                    "texto": "**Biológico:** Reset del eje Hipotálamo‑Pituitaria‑Adrenal. Normalización de cortisol.\n\n**Analógico:** Recalibración del sistema de alarmas.\n\n**Espiritual:** Fin de la hipervigilancia. Confianza basal.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de calma profunda. Reducción de ansiedad."
+                  ],
+                  "consideraciones_extra": [
+                    "Voy a sacar conclusiones de lo que llamo mi «descu¬brimiento». Que el hambre alivia muchas enfermedades, que el apetito desaparece generalmente al final del primer día, que se puede ayunar sin peligro alguno muchos días segui¬dos, que al principio del ayuno aparece sobre la lengua, no se sabe por qué, un «sedimento», que al final ese sedimen¬to desaparece y, por causas desconocidas, vuelve a apare¬cer el apetito, todo eso se sabía ya antes, pero se ignora¬ba por qué ocurría, se ignoraba el mecan..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Voy a sacar conclusiones de lo que llamo mi «descu¬brimiento». Que el hambre alivia muchas enfermedades, que el apetito desaparece generalmente al final del primer día, que se puede ayunar sin peligro...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia28",
+                  "titulo": "Día 28: Mitofagia. Reemplazo de mitocondrias defectuosas",
+                  "contenido": {
+                    "texto": "**Biológico:** Mitofagia. Reemplazo de mitocondrias defectuosas.\n\n**Analógico:** Sustitución de fuentes de alimentación por unidades más eficientes.\n\n**Espiritual:** Energía sostenible. Vitalidad sin desgaste.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Niveles de energía muy estables. Buen humor."
+                  ],
+                  "consideraciones_extra": [
+                    "1. Durante el ayuno sistemático según el principio «no comer nada, tomar sólo agua», el hombre enseguida empieza a alimentarse de sus provisiones internas, y se establece un proceso que yo llamo el «proceso normal y automático de la profunda purificación del organismo des¬de dentro». Lo llamo «normal», porque durante el mismo la temperatura del ayunador baja comúnmente medio grado de la normal, sin exceder de los límites de entre 36 y 37 °C lo cual constituye un indicio claro de que el organismo..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "1. Durante el ayuno sistemático según el principio «no comer nada, tomar sólo agua», el hombre enseguida empieza a alimentarse de sus provisiones internas, y se establece un proceso que yo llamo el «p...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia29",
+                  "titulo": "Día 29: Neurogénesis máxima en hipocampo",
+                  "contenido": {
+                    "texto": "**Biológico:** Neurogénesis máxima en hipocampo.\n\n**Analógico:** Ampliación de memoria RAM.\n\n**Espiritual:** El pasado deja de ocupar espacio. El presente se procesa íntegro.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Capacidad de aprendizaje acelerada. Buena memoria."
+                  ],
+                  "consideraciones_extra": [
+                    "2. Para el saneamiento general del organismo humano funcionan en él constantemente no uno, sino dos mecanis¬mos, y existen no uno, sino dos caminos: uno para el tiem¬po en que el organismo se alimenta normalmente, por el estómago, y ese camino conduce, a través de los intestinos, de arriba abajo; y otro para el tiempo en que el organismo ayuna, es decir, se alimenta con sus provisiones internas, y ese camino conduce en el organismo de abajo arriba y termina en la boca, en la superficie de la len..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "2. Para el saneamiento general del organismo humano funcionan en él constantemente no uno, sino dos mecanis¬mos, y existen no uno, sino dos caminos: uno para el tiem¬po en que el organismo se alimenta...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia30",
+                  "titulo": "Día 30: Optimización de canales iónicos",
+                  "contenido": {
+                    "texto": "**Biológico:** Optimización de canales iónicos.\n\n**Analógico:** Circuitos impresos con conductividad superconductora.\n\n**Espiritual:** El cuerpo se convierte en canal puro entre intención y manifestación.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de fluidez en los movimientos. Conexión mente‑cuerpo aumentada."
+                  ],
+                  "consideraciones_extra": [
+                    "3. La expulsión por la saliva y la boca de los residuos de la combustión de la materia empieza ya a partir del primer día de ayuno, lo que causa el fenómeno hasta la fecha no explicado, de que el apetito desaparezca al final del primer día; esos residuos envenenan los nervios gusta¬tivos, matando así el apetito para todo el resto del ayuno, es decir, mientras dure la expulsión de esas «cenizas» por la boca. 4. El organismo necesita generalmente de cinco a seis días para organizar completamente l..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "3. La expulsión por la saliva y la boca de los residuos de la combustión de la materia empieza ya a partir del primer día de ayuno, lo que causa el fenómeno hasta la fecha no explicado, de que el apet...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia31",
+                  "titulo": "Día 31: Reorganización de fascia en tensointegridad",
+                  "contenido": {
+                    "texto": "**Biológico:** Reorganización de fascia en tensointegridad.\n\n**Analógico:** Arquitectura de red en topología de malla.\n\n**Espiritual:** Soporte estructural para sostener mayor carga energética.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Postura mejorada. Sensación de integración estructural."
+                  ],
+                  "consideraciones_extra": [
+                    "Durante mi segundo ayuno completo esperaba, en general, la repetición de los fenómenos del primero, aunque quizás sólo en una forma un tanto atenuada. Esperaba, así, una especie de «rutina» de parte de la naturaleza y, naturalmente, me equivoqué. El mecanismo en sí fue, en efecto, idéntico, pero los fenómenos resultaron diferentes. 1. Secreciones de aspecto peculiar sobre la lengua aparecieron también al tercer día de ayuno, pero esas ceni¬zas eran completamente diferentes: de un negro espeso y ..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Durante mi segundo ayuno completo esperaba, en general, la repetición de los fenómenos del primero, aunque quizás sólo en una forma un tanto atenuada. Esperaba, así, una especie de «rutina» de parte d...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia32",
+                  "titulo": "Día 32: Coherencia continua del campo magnético cardíaco",
+                  "contenido": {
+                    "texto": "**Biológico:** Coherencia continua del campo magnético cardíaco.\n\n**Analógico:** Campo electromagnético como antena de alta ganancia.\n\n**Espiritual:** La presencia física afecta el entorno. Sanación por proximidad.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Mayor conexión con los demás. Posibles experiencias de sincronicidad."
+                  ],
+                  "consideraciones_extra": [
+                    "Durante el segundo y el tercer ayuno, todas mis sensa¬ciones dolorosas fueron mucho más leves y suaves que durante el primero, a excepción de una: la fatiga. La nota¬ba al subir a una altura siquiera insignificante. Durante la marcha, por más veloz que fuera, y hasta en la carrera en un plano horizontal o en ejercicios gimnásticos pesados, la fatiga se sentía generalmente en los músculos, la respiración, la espalda. En cambio, cual¬quier subida por la escalera de cinco a ocho peldaños o una elev..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Durante el segundo y el tercer ayuno, todas mis sensa¬ciones dolorosas fueron mucho más leves y suaves que durante el primero, a excepción de una: la fatiga. La nota¬ba al subir a una altura siquiera ...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fase5",
+          "titulo": "Fase V: Hibridación Carbono‑Luz (Días 33–40)",
+          "filosofia": "Sellado de la nueva arquitectura. Migración completa al cuerpo de reemplazo.",
+          "clases": [
+            {
+              "id": "fase5_dias",
+              "titulo": "Días 33 a 40",
+              "descripcion": "Diferenciación funcional completa, reconfiguración del set point hormonal, perfil lipídico y glucémico óptimo, reducción de edad epigenética, fusión de coherencia cardíaca y cerebral, sistema inmune adaptativo repoblado, máxima eficiencia energética, culminación del cuerpo de reemplazo.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "dia33",
+                  "titulo": "Día 33: Diferenciación funcional completa de células madre",
+                  "contenido": {
+                    "texto": "**Biológico:** Diferenciación funcional completa de células madre.\n\n**Analógico:** Firmware de cada órgano actualizado y estabilizado.\n\n**Espiritual:** El cuerpo ya no lucha contra sí mismo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de integridad. Todos los sistemas operan en armonía."
+                  ],
+                  "consideraciones_extra": [
+                    "Con respecto a mí, puedo decir que no padezco ni he pade¬cido ninguna enfermedad especial, de modo que no sé qué es lo que me habría podido regalar el ayuno: lo que obtuve fue en forma completamente inesperada. Tenía 63 años. Mi cabello era ralo e iba encaneciendo. Después del primer ayuno empezó a crecer en abundancia y de color normal. Y no fui yo quien lo vio, me lo señalaron otros que me rodeaban. Hace dos años aparecieron en mis manos manchas causadas por el hígado. El doctor Verbitzky me d..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Con respecto a mí, puedo decir que no padezco ni he pade¬cido ninguna enfermedad especial, de modo que no sé qué es lo que me habría podido regalar el ayuno: lo que obtuve fue en forma completamente i...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia34",
+                  "titulo": "Día 34: Reconfiguración del set point hormonal y metabólico",
+                  "contenido": {
+                    "texto": "**Biológico:** Reconfiguración del set point hormonal y metabólico.\n\n**Analógico:** Nuevo perfil de energía base (TDP) más bajo para mismo rendimiento.\n\n**Espiritual:** Se requiere menos materia para sostener más vida.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Metabolismo eficiente. Menor necesidad de alimento."
+                  ],
+                  "consideraciones_extra": [
+                    "1. Se han fortalecido en forma sorprendente los nervios, ha aumentado la aptitud de trabajo y la capacidad de soportar la fatiga. 2. Se curó y empezó a funcionar perfectamente el hígado. 3. Desapareció el catarro de la garganta y de la nariz que me había quedado de un resfriado crónico. Mediante respira¬ciones profundas reprimí esta enfermedad que me había molestado durante veinticinco años, pero logré eliminarla por completo sólo con mi segundo ayuno. 4. Desaparecieron manifestaciones generales..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "1. Se han fortalecido en forma sorprendente los nervios, ha aumentado la aptitud de trabajo y la capacidad de soportar la fatiga. 2. Se curó y empezó a funcionar perfectamente el hígado. 3. Desapareci...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia35",
+                  "titulo": "Día 35: Perfil lipídico y glucémico óptimo. Ausencia de proteínas inflamatorias",
+                  "contenido": {
+                    "texto": "**Biológico:** Perfil lipídico y glucémico óptimo. Ausencia de proteínas inflamatorias.\n\n**Analógico:** Refrigerante líquido químicamente puro.\n\n**Espiritual:** La sangre es información pura.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Marcadores sanguíneos en rangos ideales."
+                  ],
+                  "consideraciones_extra": [
+                    "La cura por el hambre surte especial efecto en los casos de anemia, desarreglos intestinales, procesos inflamatorios y pustulosos, catarros, llagas externas e internas, tuber¬culosis, esclerosis, reuma, gota, hidropesía, neurastenia, neurosis, eczema, enfermedad de la vista, de la piel, diabe¬tes, enfermedad de los riñones, del hígado, etcétera . Por medio del ayuno no sólo se combaten, enferme¬dades «periódicas», sino también enfermedades tan cons¬titucionales como el cáncer, la sífilis, la tis..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "La cura por el hambre surte especial efecto en los casos de anemia, desarreglos intestinales, procesos inflamatorios y pustulosos, catarros, llagas externas e internas, tuber¬culosis, esclerosis, reum...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia36",
+                  "titulo": "Día 36: Reducción de edad epigenética. Mantenimiento telomérico",
+                  "contenido": {
+                    "texto": "**Biológico:** Reducción de edad epigenética. Mantenimiento telomérico.\n\n**Analógico:** Actualización de fecha de fabricación del hardware.\n\n**Espiritual:** La biología ya no registra el tiempo lineal.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de juventud renovada."
+                  ],
+                  "consideraciones_extra": [
+                    "Los que quieren recurrir al ayuno para librarse de sus dolencias, naturalmente, tienen deseos de saber antes qué efecto ha producido sobre otros. Para ofrecer de una vez un cuadro general, el transcurso y los resultados del proceso, inserto a continuación varios relatos completos de personas que han realizado última¬mente el ayuno ante mis ojos."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Los que quieren recurrir al ayuno para librarse de sus dolencias, naturalmente, tienen deseos de saber antes qué efecto ha producido sobre otros. Para ofrecer de una vez un cuadro general, el transcur...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia37",
+                  "titulo": "Día 37: Fusión de coherencia cardíaca y cerebral",
+                  "contenido": {
+                    "texto": "**Biológico:** Fusión de coherencia cardíaca y cerebral.\n\n**Analógico:** Procesadores operando bajo un mismo reloj con memoria unificada.\n\n**Espiritual:** Intuición y razón ya no están separadas.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Decisiones alineadas. Claridad total."
+                  ],
+                  "consideraciones_extra": [
+                    "Obesidad, dilatación de la aorta, «moscas negras» ante los ojos. La cura por medio del ayuno en cuarenta días Entre junio y julio del año pasado, en Bulgaria, efectuó un ayuno de 40 días el ingeniero ruso I. Berladin, a quien la gordura del corazón y la dilatación de la aorta ya habían empezado a dificultar seriamente su trabajo en una mina, por sus difíciles caminatas y a veces hasta con la necesidad de arrastrarse por las galerías subterráneas, en un ambien¬te envenenado por toda clase de gase..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Obesidad, dilatación de la aorta, «moscas negras» ante los ojos. La cura por medio del ayuno en cuarenta días Entre junio y julio del año pasado, en Bulgaria, efectuó un ayuno de 40 días el ingeniero ...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia38",
+                  "titulo": "Día 38: Sistema inmune adaptativo completamente repoblado",
+                  "contenido": {
+                    "texto": "**Biológico:** Sistema inmune adaptativo completamente repoblado.\n\n**Analógico:** Sistema de defensa con base de datos actualizada.\n\n**Espiritual:** No hay lucha contra lo externo. Reconocimiento de lo que es uno.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Mayor resistencia a patógenos."
+                  ],
+                  "consideraciones_extra": [
+                    "19 de mayo de 1925 ...Sufro dilatación de la aorta, gordura del corazón, todo debido a la alimentación irregular y al alcohol, que tomé en cantidad considerable durante la guerra contra Alema¬nia (estuve en el frente los tres años como oficial del Regi¬miento de Cosacos de la Guardia). Inadvertidamente, llegó el momento de pagar el precio. Se me presentó la cuenta en forma de amenazas de muerte a causa de subidas cotidianas por cuestas muy pronunciadas. Desde enero no como carne y no bebo ni una..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "19 de mayo de 1925 ...Sufro dilatación de la aorta, gordura del corazón, todo debido a la alimentación irregular y al alcohol, que tomé en cantidad considerable durante la guerra contra Alema¬nia (est...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia39",
+                  "titulo": "Día 39: Máxima eficiencia energética. Agua corporal como cristal líquido",
+                  "contenido": {
+                    "texto": "**Biológico:** Máxima eficiencia energética. Agua corporal como cristal líquido.\n\n**Analógico:** Hardware en eficiencia teórica máxima.\n\n**Espiritual:** El cuerpo se ha convertido en antena de alta fidelidad para la conciencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "Sensación de estar hechos de luz."
+                  ],
+                  "consideraciones_extra": [
+                    "7 de junio de 1925 A partir del 1º de junio empecé el ayuno de acuerdo con las instrucciones de usted y algunos datos recogidos del libro del profesor S. Meller sobre la cura mediante el hambre. Previamente tomé un purgante. 1er día: Hambre intensa. Tomé sólo agua. En la noche un enema de un litro de agua tibia. Tengo que decirle que, a causa de la arterioesclerosis, padezco de dilatación de la aorta, la cual me oprime el esófago (es la opinión de algunos médicos; otros, en cambio, dicen que est..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "7 de junio de 1925 A partir del 1º de junio empecé el ayuno de acuerdo con las instrucciones de usted y algunos datos recogidos del libro del profesor S. Meller sobre la cura mediante el hambre. Previ...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                },
+                {
+                  "id": "dia40",
+                  "titulo": "Día 40: Culminación. Cuerpo de reemplazo completamente operativo",
+                  "contenido": {
+                    "texto": "**Biológico:** Culminación. Cuerpo de reemplazo completamente operativo.\n\n**Analógico:** Migración completada. Código optimizado sobre hardware renovado.\n\n**Espiritual:** Se habita un cuerpo capaz de sostener frecuencias de luz pura. La materia informada por el espíritu.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": [
+                    "⚠️ **Inicio del refeeding.** Seguir protocolo de reingreso (caldo, vegetales cocidos, progresión lenta). El sistema recién formateado es extremadamente sensible."
+                  ],
+                  "consideraciones_extra": [
+                    "Hoy ya ha pasado el decimo séptimo día de mi ayuno. A partir del séptimo día, se produjo una crisis en mi estado físico. Todo este tiempo me siento excelentemente. Duer¬mo profundamente, me levanto sin dolor de cabeza, tengo la sensación de ligereza y de bienestar. Estoy lleno de energías; me vienen ganas de correr y de saltar, y, sin embargo, hoyes el decimoséptimo día de ayuno. El espasmo en la garganta se hace sentir en forma muy débil y lejana. La lengua está blanca con una franja amari¬lla ..."
+                  ],
+                  "citas": [
+                    {
+                      "autor": "Alexi Suvorin (extraído de 'La Curación por El Ayuno')",
+                      "texto": "Hoy ya ha pasado el decimo séptimo día de mi ayuno. A partir del séptimo día, se produjo una crisis en mi estado físico. Todo este tiempo me siento excelentemente. Duer¬mo profundamente, me levanto si...",
+                      "referencia": "La Curación por El Ayuno, s/f"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "glosario",
+          "titulo": "Glosario Técnico‑Espiritual",
+          "filosofia": "Léxico de referencia para la práctica y difusión del Biohacking Estructural, unificando biología molecular, ingeniería de sistemas y sabiduría espiritual.",
+          "clases": [
+            {
+              "id": "glosario_terminos",
+              "titulo": "Términos Fundamentales",
+              "descripcion": "Definiciones operativas de los conceptos clave del protocolo.",
+              "archivos": [],
+              "temas": [
+                {
+                  "id": "term_ampk",
+                  "titulo": "AMPK",
+                  "contenido": {
+                    "texto": "**Biológico:** Proteína quinasa activada por AMP; sensor energético celular que se activa ante la falta de glucosa y estimula la autofagia.\n\n**Analógico:** Interruptor maestro que detecta la ausencia de carga externa y cambia el sistema al modo de ahorro y reciclaje.\n\n**Espiritual:** La alarma que despierta al organismo cuando deja de depender de combustible externo y comienza a mirar hacia sus propias reservas profundas.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_apoptosis",
+                  "titulo": "Apoptosis",
+                  "contenido": {
+                    "texto": "**Biológico:** Muerte celular programada, un proceso ordenado de eliminación de células dañadas, viejas o innecesarias.\n\n**Analógico:** Desinstalación controlada de software obsoleto y eliminación de procesos zombi que consumen recursos sin función.\n\n**Espiritual:** El arte de dejar morir lo que ya no sirve para que lo nuevo pueda nacer.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_atleta_cuantico",
+                  "titulo": "Atleta Cuántico",
+                  "contenido": {
+                    "texto": "**Biológico:** Organismo humano optimizado mediante el protocolo de ayuno prolongado y regeneración celular, con sistema inmune virgen, mitocondrias eficientes y coherencia cardíaca‑cerebral.\n\n**Analógico:** Hardware actualizado a su máxima capacidad de procesamiento, con refrigeración superconductora y latencia cero.\n\n**Espiritual:** El ser humano que ha transmutado su biología para operar como canal de frecuencias superiores y manifestar su intención con eficacia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_autofagia_cuantica",
+                  "titulo": "Autofagia Cuántica",
+                  "contenido": {
+                    "texto": "**Biológico:** Proceso celular de reciclaje de componentes dañados (proteínas mal plegadas, mitocondrias oxidadas) inducido por ayuno y restricción calórica.\n\n**Analógico:** Limpieza de archivos temporales, fragmentos de disco y programas corruptos; recuperación de espacio en el disco duro.\n\n**Espiritual:** El fuego interno que consume la imperfección y transforma la materia degradada en combustible para la regeneración.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_bdnf",
+                  "titulo": "BDNF (Factor Neurotrófico Derivado del Cerebro)",
+                  "contenido": {
+                    "texto": "**Biológico:** Proteína que promueve la supervivencia neuronal, la neurogénesis y la plasticidad sináptica; aumenta con el ayuno y el ejercicio.\n\n**Analógico:** Actualización de controladores de red y reparación de cables de transmisión de datos.\n\n**Espiritual:** La apertura de nuevas rutas de percepción; la mente recupera su capacidad de aprender y adaptación.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_biohacking_estructural",
+                  "titulo": "Biohacking Estructural",
+                  "contenido": {
+                    "texto": "**Biológico:** Conjunto de intervenciones (ayuno, suplementación, exposición ambiental, manejo de luz) que modifican la expresión genética, la regeneración celular y la coherencia sistémica.\n\n**Analógico:** Ingeniería de hardware y firmware para optimizar el rendimiento de un sistema operativo.\n\n**Espiritual:** La disciplina de diseñar conscientemente el vehículo físico para que sirva a la evolución de la conciencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_celulas_madre",
+                  "titulo": "Células Madre (Hematopoyéticas)",
+                  "contenido": {
+                    "texto": "**Biológico:** Células indiferenciadas con capacidad de autorrenovación y diferenciación en múltiples tipos celulares; su proliferación se dispara alrededor del día 21 de ayuno prolongado.\n\n**Analógico:** Componentes originales de fábrica; tras un formateo, se instalan nuevos módulos de hardware.\n\n**Espiritual:** La semilla virgen, libre de memorias de enfermedad, que permite construir un cuerpo de reemplazo mientras se habita el anterior.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_celulas_senecentes",
+                  "titulo": "Células Senescentes ('Células Zombi')",
+                  "contenido": {
+                    "texto": "**Biológico:** Células que han detenido su división pero no mueren, secretando moléculas inflamatorias que envejecen los tejidos circundantes.\n\n**Analógico:** Procesos en segundo plano que consumen memoria y generan calor residual sin aportar trabajo útil.\n\n**Espiritual:** Las estructuras internas que ya no sirven a la vida pero se resisten a desaparecer.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_cetosis",
+                  "titulo": "Cetosis",
+                  "contenido": {
+                    "texto": "**Biológico:** Estado metabólico en el que el hígado produce cuerpos cetónicos a partir de ácidos grasos, utilizados como combustible por el cerebro y otros tejidos.\n\n**Analógico:** Cambio del kernel del sistema operativo; el sistema deja de usar electricidad de la red (glucosa) y pasa a energía interna de alta eficiencia.\n\n**Espiritual:** La mente deja de depender de estímulos externos y se alimenta de la propia luz interior.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_coherencia_gamma",
+                  "titulo": "Coherencia Gama",
+                  "contenido": {
+                    "texto": "**Biológico:** Patrón de ondas cerebrales en el rango de 30‑100 Hz, asociado a estados de máxima integración cognitiva, percepción expandida y sincronía neuronal.\n\n**Analógico:** Sincronización del reloj del sistema a una frecuencia de reloj ultra alta; todos los núcleos procesan en paralelo sin colisiones.\n\n**Espiritual:** La unidad de percepción; el colapso del velo entre el yo y el todo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_coherencia_cardiaca",
+                  "titulo": "Coherencia Cardíaca",
+                  "contenido": {
+                    "texto": "**Biológico:** Patrón rítmico de la variabilidad de la frecuencia cardíaca (VFC) en el que el corazón envía señales eléctricas y magnéticas armónicas a todo el organismo.\n\n**Analógico:** El procesador central emite un pulso de reloj estable que sincroniza todos los buses del sistema.\n\n**Espiritual:** El corazón como centro de inteligencia emocional y espiritual; cuando es coherente, ordena la biología entera.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_cuerpo_luz",
+                  "titulo": "Cuerpo de Luz",
+                  "contenido": {
+                    "texto": "**Biológico:** Estado final de la hibridación carbono‑luz, donde el agua corporal está estructurada hexagonalmente y la biología opera con máxima conductividad eléctrica y mínima resistencia.\n\n**Analógico:** Hardware líquido de transmisión superconductora, con capacidad de procesamiento cuántico.\n\n**Espiritual:** El vehículo de la conciencia purificado y transfigurado, capaz de sostener frecuencias divinas.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_eje_hpa",
+                  "titulo": "Eje HPA (Hipotálamo‑Pituitaria‑Adrenal)",
+                  "contenido": {
+                    "texto": "**Biológico:** Circuito neuroendocrino que regula la respuesta al estrés.\n\n**Analógico:** Sistema de alarmas y gestión de crisis del hardware.\n\n**Espiritual:** La posibilidad de recalibrar la reacción automática para responder desde la paz y no desde el miedo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_foxo",
+                  "titulo": "FOXO",
+                  "contenido": {
+                    "texto": "**Biológico:** Factores de transcripción que promueven la longevidad, la resistencia al estrés y la autofagia; se activan en condiciones de ayuno.\n\n**Analógico:** Scripts de mantenimiento del sistema que se ejecutan en segundo plano cuando el procesador está en reposo.\n\n**Espiritual:** Los mecanismos que convierten la privación en fortaleza y la fragilidad en resiliencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_frecuencia_vida",
+                  "titulo": "Frecuencia de Vida",
+                  "contenido": {
+                    "texto": "**Biológico:** Coherencia electromagnética del campo cardíaco cuando opera sin interferencia de estrés, inflamación o pensamientos discordantes.\n\n**Analógico:** Frecuencia portadora limpia que modula toda la transmisión de datos en el sistema.\n\n**Espiritual:** La vibración en la que la biología se alinea con la intención del espíritu.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_hardware_liquido",
+                  "titulo": "Hardware Líquido",
+                  "contenido": {
+                    "texto": "**Biológico:** Agua corporal (≈70% del organismo) cuando adopta una geometría hexagonal coherente, mejorando la conductividad eléctrica y la transmisión de señales.\n\n**Analógico:** Fluido refrigerante que también actúa como medio de transferencia de datos superconductora.\n\n**Espiritual:** La materia fluida que se vuelve transparente a la luz y permite que la intención viaje sin distorsión.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_hibridacion",
+                  "titulo": "Hibridación Carbono‑Luz",
+                  "contenido": {
+                    "texto": "**Biológico:** Estado en el que la biología de carbono ha sido optimizada para sostener frecuencias electromagnéticas más altas sin degradación.\n\n**Analógico:** Hardware diseñado para operar con voltajes superiores sin sobrecalentamiento.\n\n**Espiritual:** La integración de lo material y lo espiritual en una sola arquitectura; la materia informada por el espíritu.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_igf1",
+                  "titulo": "IGF‑1 (Factor de Crecimiento Similar a la Insulina)",
+                  "contenido": {
+                    "texto": "**Biológico:** Hormona que promueve el crecimiento celular pero, en exceso, acelera el envejecimiento y la proliferación cancerígena; desciende drásticamente con el ayuno.\n\n**Analógico:** Regulador de la velocidad de crecimiento del sistema; su reducción permite pausar la expansión para dedicar recursos a la reparación.\n\n**Espiritual:** La renuncia al crecimiento desmedido para permitir la profundización.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_mitofagia",
+                  "titulo": "Mitofagia",
+                  "contenido": {
+                    "texto": "**Biológico:** Autofagia específica de mitocondrias; eliminación de centrales energéticas defectuosas y reemplazo por mitocondrias nuevas y eficientes.\n\n**Analógico:** Sustitución de fuentes de alimentación ruidosas por unidades de alta eficiencia con bajo calor residual.\n\n**Espiritual:** Renovación de la energía vital en su fuente más íntima.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_mtor",
+                  "titulo": "mTOR (Mammalian Target of Rapamycin)",
+                  "contenido": {
+                    "texto": "**Biológico:** Vía de señalización que promueve el crecimiento celular; se inhibe durante el ayuno, permitiendo la autofagia.\n\n**Analógico:** Interruptor que activa los procesos de expansión; su desactivación libera recursos para el mantenimiento y reparación.\n\n**Espiritual:** El principio de crecimiento incesante que debe ser detenido periódicamente para que la profundidad pueda emerger.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_neurogenesis",
+                  "titulo": "Neurogénesis",
+                  "contenido": {
+                    "texto": "**Biológico:** Formación de nuevas neuronas, especialmente en el hipocampo; promovida por ayuno, BDNF y ejercicio.\n\n**Analógico:** Expansión de la memoria RAM y generación de nuevos núcleos de procesamiento.\n\n**Espiritual:** La capacidad de re‑escribir la historia personal desde una perspectiva nueva.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_overclocking",
+                  "titulo": "Overclocking Neuronal",
+                  "contenido": {
+                    "texto": "**Biológico:** Aumento de la sincronía y frecuencia de las ondas cerebrales hacia el rango gamma, con aumento de la velocidad de procesamiento cognitivo.\n\n**Analógico:** Elevación de la frecuencia de reloj del procesador para obtener mayor rendimiento, manteniendo la estabilidad térmica.\n\n**Espiritual:** La aceleración de la percepción hasta que el tiempo lineal se diluye y la conciencia opera en presente continuo.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_proteinas_choque",
+                  "titulo": "Proteínas de Choque Térmico (HSP)",
+                  "contenido": {
+                    "texto": "**Biológico:** Moléculas que protegen a otras proteínas del daño y ayudan en su correcto plegamiento; aumentan con el ayuno y el estrés controlado.\n\n**Analógico:** Mecanismos de corrección de errores y tolerancia a fallos que se activan bajo condiciones extremas.\n\n**Espiritual:** La resiliencia que se cultiva al enfrentar el fuego de la transformación.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_sirtuinas",
+                  "titulo": "Sirtuinas",
+                  "contenido": {
+                    "texto": "**Biológico:** Familia de proteínas que regulan el envejecimiento, la inflamación y la resistencia al estrés; se activan con ayuno y restricción calórica.\n\n**Analógico:** Controladores de longevidad del hardware; optimizan el uso de recursos para extender la vida operativa.\n\n**Espiritual:** La sabiduría que convierte la limitación en oportunidad de trascendencia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_so_biologico",
+                  "titulo": "Sistema Operativo Biológico",
+                  "contenido": {
+                    "texto": "**Biológico:** Conjunto de procesos homeostáticos, genéticos y epigenéticos que gobiernan el funcionamiento del organismo.\n\n**Analógico:** El software base que coordina el hardware; puede ser reinstalado, actualizado o depurado.\n\n**Espiritual:** La estructura de creencias y patrones que determinan cómo la conciencia se expresa en la materia.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_tensointegridad",
+                  "titulo": "Tensointegridad (Tensegrity)",
+                  "contenido": {
+                    "texto": "**Biológico:** Principio estructural en el que los huesos flotan en una red de tensiones de fascia y músculos, distribuyendo las cargas de manera eficiente.\n\n**Analógico:** Arquitectura de red distribuida sin puntos únicos de fallo.\n\n**Espiritual:** La integridad estructural que permite sostener fuerzas mayores sin colapsar.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                },
+                {
+                  "id": "term_vfc",
+                  "titulo": "VFC (Variabilidad de la Frecuencia Cardíaca)",
+                  "contenido": {
+                    "texto": "**Biológico:** Medida de la variación en los intervalos entre latidos; un patrón coherente indica equilibrio autonómico y salud.\n\n**Analógico:** Estabilidad del reloj maestro del sistema; una VFC coherente sincroniza todos los subsistemas.\n\n**Espiritual:** La respiración rítmica del corazón que refleja la armonía entre cuerpo, emoción y espíritu.",
+                    "imagen": "",
+                    "audio": "",
+                    "video": "",
+                    "quiz": null
+                  },
+                  "consideraciones": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
